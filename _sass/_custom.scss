@@ -1,3 +1,8 @@
+
+// Custom Colors 
+$hhn-blue:   #5B89C2;
+
+
 body {
 	background-color: white;
   h1, h2, h3, h4, h5, h6 {
@@ -28,10 +33,17 @@ body {
   padding-right: 1em !important;
 }
 
+// .jumbotron {
+// 	background: 
+//     url('../#{$jumbotron-mask}') repeat, 
+//     url('../#{$jumbotron-image}') center/$jumbotron-image-size $jumbotron-color;
+// 	color: $white;
+//   text-shadow: 5px 5px 10px $gray-darker;
+
+
 .jumbotron {
 	background: 
-    url('../#{$jumbotron-mask}') repeat, 
-    url('../#{$jumbotron-image}') center/$jumbotron-image-size $jumbotron-color;
+ $jumbotron-color;
 	color: $white;
   text-shadow: 5px 5px 10px $gray-darker;
 
@@ -107,7 +119,7 @@ section {
 }
 
 .sidebar li:hover {
-	background-color: cadetblue;
+	background-color: $hhn-blue;
 
 	a:hover, a:focus {
 		text-decoration: none;
@@ -123,7 +135,7 @@ section {
 }
 
 .sidebar li.active a:hover {
-	color: cadetblue;
+	color: $hhn-blue;
 }
 
 .sidebar li a {
@@ -195,7 +207,7 @@ section {
   .sidebar li a:before {
     content: "\f005";
     font-family: FontAwesome;
-    color: cadetblue;
+    color: $hhn-blue;
     position: absolute;
     left: 29px;
     line-height: 1.7;
