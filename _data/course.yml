@@ -1,3 +1,11 @@
-title: Course-in-a-Box
-description: An open-source project for creating online courses, built by <a href="https://www.p2pu.org">P2PU</a>
-modules: ["setup", "content", "customize"]
+title: DevOps
+description: Vorlesung Devops im Studiengang Software Engineering Bachelor (SEB) an der Hochschule Heilbronn. 
+modules: 
+  - name: syllabus
+    title: Syllabus
+  - name: kursunterlagen
+    title: Kursunterlagen
+  - name: material
+    title: "Weiterführendes Material"
+  - name: hausaufgaben
+    title: Hausaufgaben
