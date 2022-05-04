@@ -1,5 +1,5 @@
 ---
-title: Hausaufgabe Docker Image
+title: Hausaufgabe Docker CI/CD Image 
 ---
 
 ## Aufgabe: Docker CI/CD Image
@@ -21,7 +21,7 @@ In dieser Aufgabe erstellen Sie ein Docker Image, das einem CI/CD Prozess zur st
     - Hinweis: Der Pfad darf nicht hart im Image hinterlegt sein.  
     - Die Ausführung von Checkstyle erfolgt über ein Gradle Skript.
         - Das Skript befindet sich im selben Verzeichnis wie Ihr Dockerfile und kann baum bauen des Images in dieses kopiert werden. 
-    - Beide Paramter (Git Repository und der Pfad zum Code innerhalb des Repositories) können als Parameter in der `docker-compose.yml` Datei geändert werden. 
+    - Beide Parameter (Git Repository und der Pfad zum Code innerhalb des Repositories) können als Parameter in der `docker-compose.yml` Datei geändert werden. 
         - Änderungen an den Parametern treten immer erst nach dem Neustart des Containers (via `docker-compose up`) in Kraft.
     - Alle Fehler, die auftreten sollen im Container Log via (`docker logs`)[https://docs.docker.com/engine/reference/commandline/logs/] ausgegeben werden.
     - Werden bei der Ausführung von Checkstyle Abweichungen von den Google Java Style Guides festgestellt, soll diese Ausgabe ebenfalls im container log ausgegeben werden. 
