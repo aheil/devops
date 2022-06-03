@@ -14,8 +14,8 @@ Insbesondere die zahlreichen Referenzen (die man sich unbedingt anschauen und du
 
 ![Cover des Buchs Das DevOPs Handbuch vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg){: width="300" }
 
-Das DevOps Handbuch
-Erscheinungsdatum: 09.08.2017
+Das DevOps Handbuch  
+Erscheinungsdatum: 09.08.2017  
 O´Reilly  
 ISBN: 978-3-96009-047-2  
 
