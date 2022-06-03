@@ -29,8 +29,8 @@ Der Roman zur Vorlesung. Hierbei handelt es sich um das, in der ersten Veranstal
 
 Projekt Phoenix  
 Erscheinungsdatum: 30.09.2015  
-O'Reilly
-ISBN: 978-3-95875-175-0
+O'Reilly  
+ISBN: 978-3-95875-175-0  
 
 Für die Veranstaltung ist es nicht notwendig das Buch (es ist ein Roman) zu lesen, um die Probleme in der IT und Lösungsmöglichkeiten auf Basis von DevOps zu verstehen wird die Lektüre aber auf jeden Fall empfohlen. Die Semesterferien bieten sich hierfür ideal an. 
 
