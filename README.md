@@ -15,3 +15,21 @@ Questions? Ask on P2PU's [Community Forum](https://community.p2pu.org/c/tech/cou
 Course-in-a-Box is built by [Peer 2 Peer University](https://www.p2pu.org) and shared under an MIT License.
 
 Course content ("Modules") are shared under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
+
+# Using this template
+
+This is an customized template, used for several of my lectures. 
+
+This template is also used a a remote to maintain changes for all course sites at a single repo. 
+
+1. Create a course based on this template
+2. Add this repository as remote to the recently created course 
+    ```shell
+    git remote add template git@github.com:aheil/course-in-a-box.git
+    ```
+3. Fetch the template 
+    ```shell
+    git fetch template 
+    ```
+
+
