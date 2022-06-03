@@ -1,11 +1,17 @@
-
 // Custom Colors 
-$hhn-blue:   #5B89C2;
+$hhn-blue: #5B89C2;
 
 
 body {
-	background-color: white;
-  h1, h2, h3, h4, h5, h6 {
+  background-color: white;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: $font-family-sans-serif;
     font-weight: 400;
   }
 }
@@ -17,18 +23,22 @@ body {
 }
 
 .navbar {
-  a, .nav-link, button {
+
+  a,
+  .nav-link,
+  button {
     color: rgba(255, 255, 255, 0.8);
     text-transform: uppercase;
   }
 }
 
-.nav-item.active, .nav-item:hover {
+.nav-item.active,
+.nav-item:hover {
   background-color: #707782;
-	transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
-.nav-link{
+.nav-link {
   padding-left: 1em !important;
   padding-right: 1em !important;
 }
@@ -42,36 +52,38 @@ body {
 
 
 .jumbotron {
-	background: 
- $jumbotron-color;
-	color: $white;
+  background:
+    $jumbotron-color;
+  color: $white;
   text-shadow: 5px 5px 10px $gray-darker;
 
-	a {
-		color: #fcfcfc;
-		border-bottom: 1px dotted;
-		text-decoration: none;
-		transition: all 0.3s linear;
-	}
-	a:hover, a:focus {
-		border-bottom: none;
-		text-decoration: none;
-	}
+  a {
+    color: #fcfcfc;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+
+  a:hover,
+  a:focus {
+    border-bottom: none;
+    text-decoration: none;
+  }
 
 }
 
 .jumbotron header h1 {
-	font-family: $font-family-sans-serif;
-	font-size: 4em;
+  font-family: $font-family-sans-serif;
+  font-size: 4em;
 }
 
 .content {
   margin-top: 1em;
-	line-height: 2;
+  line-height: 2;
 }
 
 .content img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 blockquote {
@@ -96,84 +108,88 @@ code {
 }
 
 section {
-	margin: 3em 0;
-	font-size: large;
-	line-height: 1.8;
+  margin: 3em 0;
+  font-size: large;
+  line-height: 1.8;
 }
 
 .sidebar {
-	background-color: $gray-lighter;
+  background-color: $gray-lighter;
   font-size: 15px;
   padding-bottom: 10px;
 }
 
 .sidebar ul {
-	list-style-type: none;
-	padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .sidebar li {
-	padding-right: 1em;
-	position: relative;
-	@include transition(color, 0.3s, linear);
+  padding-right: 1em;
+  position: relative;
+  @include transition(color, 0.3s, linear);
 }
 
 .sidebar li:hover {
-	background-color: $hhn-blue;
+  background-color: $hhn-blue;
 
-	a:hover, a:focus {
-		text-decoration: none;
-		color: $white;
-	}
+  a:hover,
+  a:focus {
+    text-decoration: none;
+    color: $white;
+  }
+
   .pagination-section {
     margin: 1em 0;
   }
 }
 
 .sidebar li.active {
-	background-color: $white;
+  background-color: $white;
 }
 
 .sidebar li.active a:hover {
-	color: $hhn-blue;
+  color: $hhn-blue;
 }
 
 .sidebar li a {
-	display: block;
+  display: block;
   padding: 0.8em 0.5em;
-	text-transform: uppercase;
-	@include transition(color, 0.3s, linear);
+  text-transform: uppercase;
+  @include transition(color, 0.3s, linear);
 }
 
 .pagination-section .title {
-	color: $gray;
-	line-height: 2;
+  color: $gray;
+  line-height: 2;
 }
 
 .pagination-section {
-	.next, .prev {
-		text-transform: uppercase;
-	}
+
+  .next,
+  .prev {
+    text-transform: uppercase;
+  }
 }
 
 .pagination-section .next:after {
-	content: "\f0da";
-	font-family: FontAwesome;
+  content: "\f0da";
+  font-family: FontAwesome;
 }
 
 .pagination-section .prev:before {
-	content: "\f0d9";
-	font-family: FontAwesome;
+  content: "\f0d9";
+  font-family: FontAwesome;
 }
 
 
 @include media-breakpoint-up(md) {
   .sidebar {
-	  padding: 60px 0;
+    padding: 60px 0;
   }
 
   .sidebar li {
-	  padding-left: 60px;
+    padding-left: 60px;
   }
 
   .sidebar li:before {
@@ -236,40 +252,42 @@ section {
 }
 
 #ghUsername-box {
-	position: relative;
-	background: $gray-lighter;
-	padding: 10px 20px;
+  position: relative;
+  background: $gray-lighter;
+  padding: 10px 20px;
 
-	.ghUsername-set {
-		@extend .h2;
-		padding: 7px 15px;
-		display: block;
-		margin: 0;
+  .ghUsername-set {
+    @extend .h2;
+    padding: 7px 15px;
+    display: block;
+    margin: 0;
 
-		&:hover {
-			text-decoration: none;
-		}
+    &:hover {
+      text-decoration: none;
+    }
 
-	}
-	.label {
-		position: absolute;
-		top: 0;
-		right: 0;
+  }
+
+  .label {
+    position: absolute;
+    top: 0;
+    right: 0;
     padding: 0 5px;
     background-color: $gray-darker;
     color: white;
     font-size: 12pt;
     font-style: italic;
-	}
+  }
 }
 
 .gh-username-set {
-	input {
-		padding: 4px;
-	}
-	button {
-		margin-top: -5px;
-	}
+  input {
+    padding: 4px;
+  }
+
+  button {
+    margin-top: -5px;
+  }
 }
 
 footer {
@@ -278,12 +296,14 @@ footer {
   color: $gray-lighter;
   text-align: center;
   font-size: 12pt;
+
   a {
     color: #FCFCFC;
     border-bottom: 1px dotted;
     text-decoration: none;
     transition: all 0.3s linear;
   }
+
   a:hover {
     border: none;
     color: #FCFCFC;
