@@ -138,7 +138,7 @@ Das Buch ist für Student:innen der HHN über die LIV als eBook, in der Biblioth
 
 Der Roman zur Vorlesung. Hierbei handelt es sich um das, in der ersten Veranstaltung referenzierte Buch, aus dem die Beispiele stammen. 
 
-![Cover des Buchs Projekt Phoenix vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)
+![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)
 
 Projekt Phoenix  
 Erscheinungsdatum: 30.09.2015  
