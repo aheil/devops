@@ -127,10 +127,10 @@ Insbesondere die zahlreichen Referenzen (die man sich unbedingt anschauen und du
 
 ![Cover](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg)<!-- style="width: 30%;" -->
 
-Das DevOps Handbuch
-Erscheinungsdatum: 09.08.2017
-O´Reilly  
-ISBN: 978-3-96009-047-2  
+Das DevOps Handbuch<br />
+Erscheinungsdatum: 09.08.2017<br />
+O´Reilly<br />
+ISBN: 978-3-96009-047-2
 
 Das Buch ist für Student:innen der HHN über die LIV als eBook, in der Bibliothek am Standort Sontheim als auch meinem Semesterapparat verfügbar. 
 
@@ -140,10 +140,10 @@ Der Roman zur Vorlesung. Hierbei handelt es sich um das, in der ersten Veranstal
 
 ![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)<!-- style="width: 30%;" -->
 
-Projekt Phoenix  
-Erscheinungsdatum: 30.09.2015  
-O'Reilly  
-ISBN: 978-3-95875-175-0  
+Projekt Phoenix<br />
+Erscheinungsdatum: 30.09.2015<br />
+O'Reilly<br />
+ISBN: 978-3-95875-175-0
 
 Für die Veranstaltung ist es nicht notwendig das Buch (es ist ein Roman) zu lesen, um die Probleme in der IT und Lösungsmöglichkeiten auf Basis von DevOps zu verstehen, wird die Lektüre aber auf jeden Fall empfohlen. Die kommenden Semesterferien bieten sich hierfür ideal an. 
 
