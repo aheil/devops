@@ -1,11 +1,3 @@
-_site/*
-.idea/
-.sass-cache
-.bundler/
-
-# allows Jekyll to keep track of which files have not been modified since the site was last built
-.jekyll-metadata  
-
 # VS Code 
 .vscode/
 *.code-workspace
