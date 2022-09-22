@@ -1,17 +1,142 @@
-# An open-source project for creating online courses, built by P2PU
-Course-in-a-Box is a free tool for building and publishing online courses — no prior coding experience required. 
+<!--
 
-To create your own course, simply fork this repository and delete the CNAME file. Detailed documentation is available at [course-in-a-box.p2pu.org](https://course-in-a-box.p2pu.org).
+author:   Andreas Heil
+email:    andreas.heil@hs-heilbronn.de
+version:  0.1
+language: de
+narrator: DE German Male
 
-To make changes to the template itself, a good place to start is the [`_layouts`](/_layouts), [`_includes`](/_includes) and [`css`](/css) directories. These directories contain all the layout and style files used.
+comment:  
 
-Questions? Ask on P2PU's [Community Forum](https://community.p2pu.org/c/tech/course-in-a-box/78).
+-->
 
-# Running locally
-- [install docker](https://docs.docker.com/engine/install/) 
-- Run ```docker run -i -t --rm -u 1000:1000 -p 4000:4000 -v `pwd`:/opt/app -v `pwd`/.bundler/:/opt/bundler -e BUNDLE_PATH=~/opt/bundler -w /opt/app ruby:2.7 bash -c "bundle install && bundle exec jekyll serve --watch -H 0.0.0.0"```
 
----
-Course-in-a-Box is built by [Peer 2 Peer University](https://www.p2pu.org) and shared under an MIT License.
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://LiaScript.github.io/course/?https://github.com/aheil/devops) 
 
-Course content ("Modules") are shared under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
+# DevOps
+
+Dieser Kurs ist Teil des Bachelor Studiengangs Software Engineering (SEB) an der Hochschule Heilbronn.
+
+Dies ist das Repository der Kursinformationen. Diese Seiten sind als [interaktiver Kurs verfügbar](https://liascript.github.io/course/?https://github.com/aheil/devops) verfügbar.
+
+## Kursübersicht 
+
+Dieser Kurs ist ein Grundlagenkurs im Bachelor Studiengang Software Engineering Bachelor (262062).
+
+**Dozent**
+
+Prof. Andreas Heil
+
+**Kursnummer**
+
+262062 (SPO4)
+
+**Level**
+
+Hauptstudium Bachelor (SEB)
+
+**Semesterwochenstunden/ECTS**
+
+2/3
+
+**Workload**
+- 30h Kontaktstunden/Lerneinheiten
+- 90h Selbststudium
+
+**Lizenz**
+
+Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/). 
+
+## Kalender 
+
+
+| Einheit # | Datum | Thema |
+| --- | --- | --- |
+|  - | 26.09.2022 | Begrüßung / Einführung |  
+|  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) | 
+|  1 | 10.10.2022 | N.N. |
+|  2 | 17.10.2022 | N.N. | 
+|  3 | 24.10.2022 | Entfällt (Blockveranstaltung SEM) | 
+|  4 | 31.10.2022 | N.N.| 
+|  5 | 07.11.2022 | N.N. | 
+|  6 | 14.11.2022 | N.N. | 
+|  7 | 21.11.2022 | N.N. | 
+|  8 | 28.11.2022 | Entfällt (Blockwoche SEB) |
+|  9 | 05.12.2022 | N.N. | 
+| 10 | 12.12.2022 | N.N. | 
+| 11 | 19.12.2022 | N.N. | 
+|  - | 26.12.2022 | Vorlesungsfrei |
+|  - | 02.01.2023 | Vorlesungsfrei | 
+| 12 | 09.01.2023 | N.N. |
+| 13 | 17.01.2023 | N.N. | 
+
+
+
+## Übungsaufgaben und Abgaben
+
+|Aufgabe|Thema|Gewichtung (in %)|
+|---|---|---|
+|[Artikel Kasteleiner und Schwartz|Einführung in DevOps](/aufgaben/kasteleiner.md)|5|
+|Docker Web Server|Container-Technologien|10|
+|Docker CI/CD Image|Container-Technologien|15|
+|Ansible Playbook|Automatisierung|20|
+|Vagrant|Automatisierung|20|
+|Test|Vorlesungsbegleitend|30|
+
+Der Test wird in einer regulären Vorlesungseinheit durchgeführt und wird mindestens zwei Wochen vorher angekündigt.  
+
+Relevant sind alle Themen, die bis zum Test in der Veranstaltung behandelt wurden.  
+
+Das Bestehen des Tests ist Voraussetzung um den Kurs in Gänze zu bestehen.
+Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wiederholen.
+
+## Syllabus
+
+**Kurszeiten**
+
+- 1 Vorlesungseinheit / Woche, 90 Min. / Einheit
+- Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen [Stundenplan](https://splan.hs-heilbronn.de/). 
+
+## Literatur 
+
+# Literatur
+
+## Bücher
+
+**Das DevOps-Handbuch  **
+
+Das Standardbuch, das vorrangig die philosophischen Grundlagen hinter DevOps zusammenfasst und die Ursprünge von DevOps beschreibt. 
+
+Insbesondere die zahlreichen Referenzen (die man sich unbedingt anschauen und durchlesen sollte) machen die Lektüre lesenswert.
+
+![Cover des Buchs Das DevOPs Handbuch vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg){: width="300" }
+
+Das DevOps Handbuch
+Erscheinungsdatum: 09.08.2017
+O´Reilly  
+ISBN: 978-3-96009-047-2  
+
+Das Buch ist für Student:innen der HHN über die LIV als eBook, in der Bibliothek am Standort Sontheim als auch meinem Semesterapparat verfügbar. 
+
+**Projekt Phoenix**
+
+Der Roman zur Vorlesung. Hierbei handelt es sich um das, in der ersten Veranstaltung referenzierte Buch, aus dem die Beispiele stammen. 
+
+![Cover des Buchs Projekt Phoenix vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg){: width="300"}
+
+Projekt Phoenix  
+Erscheinungsdatum: 30.09.2015  
+O'Reilly  
+ISBN: 978-3-95875-175-0  
+
+Für die Veranstaltung ist es nicht notwendig das Buch (es ist ein Roman) zu lesen, um die Probleme in der IT und Lösungsmöglichkeiten auf Basis von DevOps zu verstehen, wird die Lektüre aber auf jeden Fall empfohlen. Die kommenden Semesterferien bieten sich hierfür ideal an. 
+
+## Weiterführendes Material 
+
+### Serverless
+
+Serverless bedeutet nicht, das wir keine Server mehr haben. Am besten lässt sich Serverless mit einem Zitat von Scott Hanselmann erklären: 
+
+> Serverless does not mean we have no server, it simply means let's think less about servers.
+
+- [Probleme beim Serverless-Kult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
