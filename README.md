@@ -88,7 +88,7 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 
 |Aufgabe|Thema|Gewichtung (in %)|
 |---|---|---|
-| [Artikel Kasteleiner und Schwartz - Einführung in DevOps](###Aufgabe%201:%20Verständnisfragen) |Einführung|5|
+| [Artikel Kasteleiner und Schwartz - Einführung in DevOps](#aufgabe%201:%20verständnisfragen) |Einführung|5|
 |Docker Web Server|Container-Technologien|10|
 |Docker CI/CD Image|Container-Technologien|15|
 |Ansible Playbook|Automatisierung|20|
