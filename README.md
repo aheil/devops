@@ -109,8 +109,6 @@ Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wied
 - 1 Vorlesungseinheit / Woche, 90 Min. / Einheit
 - Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen [Stundenplan](https://splan.hs-heilbronn.de/). 
 
-## Literatur 
-
 ## Literatur
 
 **Das DevOps-Handbuch  **
@@ -119,7 +117,7 @@ Das Standardbuch, das vorrangig die philosophischen Grundlagen hinter DevOps zus
 
 Insbesondere die zahlreichen Referenzen (die man sich unbedingt anschauen und durchlesen sollte) machen die Lektüre lesenswert.
 
-![Cover des Buchs Das DevOPs Handbuch vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg){: width="300" }
+![Cover des Buchs Das DevOPs Handbuch vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg)
 
 Das DevOps Handbuch
 Erscheinungsdatum: 09.08.2017
@@ -132,7 +130,7 @@ Das Buch ist für Student:innen der HHN über die LIV als eBook, in der Biblioth
 
 Der Roman zur Vorlesung. Hierbei handelt es sich um das, in der ersten Veranstaltung referenzierte Buch, aus dem die Beispiele stammen. 
 
-![Cover des Buchs Projekt Phoenix vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg){: width="300"}
+![Cover des Buchs Projekt Phoenix vom Verlag O`Reilly](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)
 
 Projekt Phoenix  
 Erscheinungsdatum: 30.09.2015  
