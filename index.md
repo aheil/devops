@@ -1,5 +1,0 @@
----
-layout: index
-published: true
----
-
