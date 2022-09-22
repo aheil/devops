@@ -13,6 +13,7 @@ comment:
 
 [![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://LiaScript.github.io/course/?https://github.com/aheil/devops) 
 
+<<<<<<< HEAD
 # DevOps
 
 Dieser Kurs ist Teil des Bachelor Studiengangs Software Engineering (SEB) an der Hochschule Heilbronn.
@@ -140,3 +141,24 @@ Serverless bedeutet nicht, das wir keine Server mehr haben. Am besten lässt sic
 > Serverless does not mean we have no server, it simply means let's think less about servers.
 
 - [Probleme beim Serverless-Kult](https://dev.to/brentmitchell/after-5-years-im-out-of-the-serverless-compute-cult-3f6d)
+=======
+Course content ("Modules") are shared under a [CC BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/).
+
+# Using this template
+
+This is an customized template, used for several of my lectures. 
+
+This template is also used a a remote to maintain changes for all course sites at a single repo. 
+
+1. Create a course based on this template
+2. Add this repository as remote to the recently created course 
+    ```shell
+    git remote add template git@github.com:aheil/course-in-a-box.git
+    ```
+3. Fetch the template 
+    ```shell
+    git fetch template 
+    ```
+
+
+>>>>>>> 9c8cd33ad4f318a7a27a02e2ffebe4472a5acd9c
