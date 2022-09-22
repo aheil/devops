@@ -125,9 +125,7 @@ Das Standardbuch, das vorrangig die philosophischen Grundlagen hinter DevOps zus
 
 Insbesondere die zahlreichen Referenzen (die man sich unbedingt anschauen und durchlesen sollte) machen die Lektüre lesenswert.
 
-![Cover DevOps Handbuch O´Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg)
-
-![Cover](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg)<!-- style="width: 30%;" -->
+![Cover DevOps Handbuch von O´Reilly](https://oreilly.de/wp-content/uploads/2020/07/12827.jpg)
 
 Das DevOps Handbuch<br />
 Erscheinungsdatum: 09.08.2017<br />
