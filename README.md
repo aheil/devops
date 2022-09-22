@@ -88,7 +88,7 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 
 |Aufgabe|Thema|Gewichtung (in %)|
 |---|---|---|
-| [Artikel Kasteleiner und Schwartz - Einführung in DevOps](#aufgabe%201:%20verständnisfragen) |Einführung|5|
+| [Artikel Kasteleiner und Schwartz - Einführung in DevOps](#aufgabe%201:%20fragen) |Einführung|5|
 |Docker Web Server|Container-Technologien|10|
 |Docker CI/CD Image|Container-Technologien|15|
 |Ansible Playbook|Automatisierung|20|
@@ -102,7 +102,7 @@ Relevant sind alle Themen, die bis zum Test in der Veranstaltung behandelt wurde
 Das Bestehen des Tests ist Voraussetzung um den Kurs in Gänze zu bestehen.
 Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wiederholen.
 
-### Aufgabe 1: Verständnisfragen
+### Aufgabe 1: Fragen
 
 * Lesen Sie den Artikel von Kasteleiner und Schwartz: DevOps aus der Informatik Spektrum 42.
 * Sie können Artikel direkt bei Springer abrufen: [https://doi.org/10.1007/s00287-019-01173-2](https://link.springer.com/article/10.1007/s00287-019-01173-2)  
