@@ -100,9 +100,7 @@ Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wied
 
 ## Literatur 
 
-# Literatur
-
-## Bücher
+## Literatur
 
 **Das DevOps-Handbuch  **
 
