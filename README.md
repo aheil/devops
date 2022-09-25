@@ -90,13 +90,13 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 
 Am Ende dieser Einheit sollen Sie 
 
-- grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebssorganisation kennen lernen, 
+- grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebsorganisation kennen lernen, 
 - verstehen was mit DevOps erreicht werden sollund und 
 - einige Möglichkeiten kennen lernen, wie diese Ziele erreicht werden können. 
 
 #### Projekt Phoenix 
 
-Die folgenden Beispiele entstammen dem Buch "Projekt Pheonix".
+Die folgenden Beispiele entstammen dem Buch "Projekt Phoenix".
 
 
 ![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)<!-- style="width: 30%;" -->
@@ -195,7 +195,7 @@ Kleiner Tipp aus SEKS: Warum war Canon in den 1970ern mit der Canon AE-1 gleich 
 
 - Was ist mit dem "DevOps Engineer"? 
 
-![DevOps Engingeer Anzeige](img/devops.devopsengineer.png)
+![DevOps Engineer Anzeige](img/devops.devopsengineer.png)
 
 #### Was soll mit DevOps erreicht werden?
 
