@@ -82,6 +82,46 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 | 12 | 09.01.2023 | N.N. |
 | 13 | 17.01.2023 | N.N. | 
 
+## Vorlesungsmaterial 
+
+### Einführung und Überblick 
+
+#### Ziele und Kompetenzen 
+
+Am Ende dieser Einheit sollen Sie 
+
+- grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebssorganisation kennen lernen, 
+- verstehen was mit DevOps erreicht werden sollund und 
+- einige Möglichkeiten kennen lernen, wie diese Ziele erreicht werden können. 
+
+#### Projekt Phoenix 
+
+Die folgenden Beispiele entstammen dem Buch "Projekt Pheonix".
+
+
+![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)<!-- style="width: 30%;" -->
+
+Projekt Phoenix<br />
+Gene Kim, Kevin Behr & George Spafford<br />
+Deutsche Ausgabe<br />
+O’Reilly, 2015<br />
+ISBN 978-3958751750<br />
+
+#### „Projekt Phoenix“ - Ausgangslage
+
+„Bill Palmer ist IT-Manager bei Parts Unlimited. An einem Dienstag morgen erhält er auf der Fahrt zur Arbeit einen Anruf seines CEO. Die neue IT-Initiative der Firma mit dem Codenamen Projekt Phoenix ist entscheidend für die Zukunft von Parts Unlimited, aber das Projekt hat Budget und Zeitplan massiv überzogen. Der CEO will, dass Bill direkt an ihn berichtet und das ganze Chaos in neunzig Tagen aufräumt, denn sonst wird Bills gesamte Abteilung outgesourct.“
+
+#### 
+
+„Projekt Phoenix“ – Die ersten Fails (1)
+
+**Fail #1**
+Die Gehaltssoftware spuckt bei einem signifikanten Teil der Mitarbeiter nur Hieroglyphen aus, anstatt das tatsächliche Gehalt zu berechnen.
+
+Gehälter drohen, nicht ausgezahlt zu werden. Der Betriebsrat würde Alarm schlagen und die Presse negative Schlagzeilen zu Parts Unlimited schreiben.
+
+
+
 
 
 ## Übungsaufgaben und Abgaben
