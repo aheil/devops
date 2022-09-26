@@ -51,7 +51,14 @@ Hauptstudium Bachelor (SEB)
 
 2/3
 
+**Kurszeiten**
+
+- 1 Vorlesungseinheit/Woche
+- 90 Min./Einheit
+- Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen [Stundenplan](https://splan.hs-heilbronn.de/). 
+
 **Workload**
+
 - 30h Kontaktstunden/Lerneinheiten
 - 90h Selbststudium
 
@@ -91,13 +98,12 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 Am Ende dieser Einheit sollen Sie 
 
 - grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebsorganisation kennen lernen, 
-- verstehen was mit DevOps erreicht werden sollund und 
+- verstehen was mit DevOps erreicht werden soll und 
 - einige Möglichkeiten kennen lernen, wie diese Ziele erreicht werden können. 
 
 #### Projekt Phoenix 
 
 Die folgenden Beispiele entstammen dem Buch "Projekt Phoenix".
-
 
 ![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)<!-- style="width: 30%;" -->
 
@@ -156,23 +162,23 @@ Mittlerweile auch Abwandlungen davon, z. B. *DevSecOps*, wo der Security-Aspekt 
 
 #### Was gehört alles dazu?
 
-![DevOps - Was gehört alles dazu](img/devops.bestandteile.png)
+![DevOps - Was gehört alles dazu](img/devops.bestandteile.png)<!-- style="width: 95%;" -->
 
 #### Wie wurde früher*) Software entwickelt?
 
-![DevOps - Wie wurde früher Software entwickelt?](img/devops.legacyteams.png)
+![DevOps - Wie wurde früher Software entwickelt?](img/devops.legacyteams.png)<!-- style="width: 95%;" -->
 
 *) häufig ist dies auch heute noch der Fall
 
 #### Kommunikationswege *)
 
-![DevOps - Kommunikationswege](img/devops.kommunikationswege.png)
+![DevOps - Kommunikationswege](img/devops.kommunikationswege.png)<!-- style="width: 95%;" -->
 
 *) Sie haben sicherlich gedacht, Sie benötigen das ganze Zeug aus der Vorlesung aus dem vergangenen Semester nicht mehr... 
 
 #### Der ewige Interessenskonflikt
 
-![DevOps - I want to get that done... ASAP as possible](img/devops.asapmeme.jpg)
+![DevOps - I want to get that done... ASAP as possible](img/devops.asapmeme.jpg)<!-- style="width: 95%;" -->
 [Bildquelle Bildquelle: https://imgflip.com/](Bildquelle: https://imgflip.com/)
 
 - Es werden dringliche Zuarbeitenvon anderen Teams oderAbteilungen benötigt
@@ -191,11 +197,11 @@ Kleiner Tipp aus SEKS: Warum war Canon in den 1970ern mit der Canon AE-1 gleich 
 
 - Ein *gemeinsames* Produktteam
 
-![DevOps - Cross-funktionales Team](img/devops.crossfunctionalteam.png)
+![DevOps - Cross-funktionales Team](img/devops.crossfunctionalteam.png)<!-- style="width: 95%;" -->
 
 - Was ist mit dem "DevOps Engineer"? 
 
-![DevOps Engineer Anzeige](img/devops.devopsengineer.png)
+![DevOps Engineer Anzeige](img/devops.devopsengineer.png)<!-- style="width: 95%;" -->
 
 #### Was soll mit DevOps erreicht werden?
 
@@ -217,7 +223,7 @@ Kleiner Tipp aus SEKS: Warum war Canon in den 1970ern mit der Canon AE-1 gleich 
 
 #### Zielbild: T-Shaped Skills
 
-![T-Shaped Skill](img/devops.tshapedskill.png)
+![T-Shaped Skill](img/devops.tshapedskill.png)<!-- style="width: 95%;" -->
 
 - Erstmals 1991 von David Guest eingeführt, von Tim Brown (CEO von IDEO Design Consultancy) für Bewerberprofile eingesetzt
 
@@ -230,7 +236,7 @@ Quelle: https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-sh
 
 #### Beispiel: T-Shaped Skills
 
-![Beispiel: T-Shaped Skill](img/devops.tshapedexample.png)
+![Beispiel: T-Shaped Skill](img/devops.tshapedexample.png)<!-- style="width: 95%;" -->
 
 #### Wie können Teams selbstständig arbeiten
 
@@ -296,11 +302,11 @@ Metriken geben ein Einblick wie es unserer Applikation geht, indem kontinuierlic
 
 #### Continuous Integration
 
-![Continuous Integration](img/devops.ci.png)
+![Continuous Integration](img/devops.ci.png)<!-- style="width: 95%;" -->
 
 #### Continuous Deployment 
 
-![Continuous Deployment](img/devops.continuousdeployment.png)
+![Continuous Deployment](img/devops.continuousdeployment.png)<!-- style="width: 95%;" -->
 
 #### Feedback und verbessertes Lernen
 
@@ -364,13 +370,6 @@ Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wied
 * Notieren Sie drei Fragen bzw. offene Punkte, die sich durch das Studium des Artikels ergeben.  
 * Notieren Sie die Fragen in einer Datei und geben Sie diese als Gruppenabgabe in ILIAS ab.
 * Die Fragen werden in der folgenden Einheit besprochen.
-
-## Syllabus
-
-**Kurszeiten**
-
-- 1 Vorlesungseinheit / Woche, 90 Min. / Einheit
-- Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen [Stundenplan](https://splan.hs-heilbronn.de/). 
 
 ## Literatur
 
