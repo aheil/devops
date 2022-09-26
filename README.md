@@ -320,6 +320,14 @@ Metriken geben ein Einblick wie es unserer Applikation geht, indem kontinuierlic
     - Metriken
     - CI/CD
 
+#### Exkurs: Bedingungsloses Grundeinkommen 
+
+Was hat das bedingungslose Grundeinkommen mit DevOps zu tun? 
+
+- Was ist eigentlich ein bedingungsloses Grundeinkommen? 
+- Wie findet eigentlich die Wertschöpfung statt?
+- Was hat das alles mit DevOps zu tun? 
+
 #### Acknowledgments
 
 Diese Vorlesungseinheit basiert auf einem Gastvortrag von Markus Kiss der Fa. diva-e an der Fakultät für Informatik der Hochschule Heilbronn.
