@@ -115,7 +115,7 @@ ISBN 978-3958751750<br />
 
 #### „Projekt Phoenix“ - Ausgangslage
 
-„Bill Palmer ist IT-Manager bei Parts Unlimited. An einem Dienstag morgen erhält er auf der Fahrt zur Arbeit einen Anruf seines CEO. Die neue IT-Initiative der Firma mit dem Codenamen Projekt Phoenix ist entscheidend für die Zukunft von Parts Unlimited, aber das Projekt hat Budget und Zeitplan massiv überzogen. Der CEO will, dass Bill direkt an ihn berichtet und das ganze Chaos in neunzig Tagen aufräumt, denn sonst wird Bills gesamte Abteilung outgesourct.“
+> Bill Palmer ist IT-Manager bei Parts Unlimited. An einem Dienstag morgen erhält er auf der Fahrt zur Arbeit einen Anruf seines CEO. Die neue IT-Initiative der Firma mit dem Codenamen Projekt Phoenix ist entscheidend für die Zukunft von Parts Unlimited, aber das Projekt hat Budget und Zeitplan massiv überzogen. Der CEO will, dass Bill direkt an ihn berichtet und das ganze Chaos in neunzig Tagen aufräumt, denn sonst wird Bills gesamte Abteilung outgesourct.
 
 #### „Projekt Phoenix“ – Fail #1
 
@@ -123,11 +123,11 @@ Die Gehaltssoftware spuckt bei einem signifikanten Teil der Mitarbeiter nur Hier
 
 Gehälter drohen, nicht ausgezahlt zu werden. Der Betriebsrat würde Alarm schlagen und die Presse negative Schlagzeilen zu Parts Unlimited schreiben.
 
-„Projekt Phoenix“ – Fail #2
+#### „Projekt Phoenix“ – Fail #2
 
 Weil sich unterschiedliche Teams nicht abgestimmt haben, dauert der Rollout einer Kassensoftware viel zu lange. Die Datenbank-Migration dauert nicht nur Stunden, sondern Tage.
 
-Doof, dass die Kassen am nächsten Tag wieder öffnen und ohne Software nicht arbeiten können. Filialen nehmen die Kreditkartendaten der Kunden entgegen und schreiben sie auf, was aber ein Sicherheitsverstoß ist... 
+Doof, dass die Kassen am nächsten Tag wieder öffnen und ohne Software nicht arbeiten können. Filialen nehmen die Kreditkartendaten der Kunden entgegen und schreiben sie auf, was aber ein Sicherheitsverstoß ist...
 
 #### Zitate aus „Projekt Phoenix“ (1)
 
@@ -145,13 +145,13 @@ Doof, dass die Kassen am nächsten Tag wieder öffnen und ohne Software nicht ar
 
 - Über erfolgreiche Teams
 
-„Ein großartiges Team bedeutet nicht, dass es nur aus den klügsten Köpfen besteht. Ein Team wird dann gut sein, wenn sich alle vertrauen können. Es entsteht viel Power, wenn diese Magie zwischen den Leuten existiert.“
+> Ein großartiges Team bedeutet nicht, dass es nur aus den klügsten Köpfen besteht. Ein Team wird dann gut sein, wenn sich alle vertrauen können. Es entsteht viel Power, wenn diese Magie zwischen den Leuten existiert.
 
 #### Zitate aus „Projekt Phoenix“ (4)
 
 - Über die Zeit, in der ein neues Produkt auf dem Markt sein muss (Time-to-Market)
 
-„Produkte müssen in sechs Monaten auf dem Markt sein. Höchstens in neun. Ansonsten schnappt sich eine chinesische Firma unsere Idee, bringt sie in die Läden unserer Konkurrenz und bekommt damit einen großen Marktanteil. In diesen Zeiten starker Konkurrenz muss man schnell im Markt sein und auch die Fehler schnell machen. Wir können uns ﻿keine mehrjährigen Entwicklungszyklen mehr leisten und erst am Ende erkennen, ob das Produkt gut ist oder beim Kunden durchfällt. Es müssen kurze und schnelle Zyklen sein, in denen das Feedback aus dem Markt fortlaufend einfließt.“
+> Produkte müssen in sechs Monaten auf dem Markt sein. Höchstens in neun. Ansonsten schnappt sich eine chinesische Firma unsere Idee, bringt sie in die Läden unserer Konkurrenz und bekommt damit einen großen Marktanteil. In diesen Zeiten starker Konkurrenz muss man schnell im Markt sein und auch die Fehler schnell machen. Wir können uns ﻿keine mehrjährigen Entwicklungszyklen mehr leisten und erst am Ende erkennen, ob das Produkt gut ist oder beim Kunden durchfällt. Es müssen kurze und schnelle Zyklen sein, in denen das Feedback aus dem Markt fortlaufend einfließt.
 
 #### DevOps: Definition
 
@@ -181,11 +181,13 @@ Mittlerweile auch Abwandlungen davon, z. B. *DevSecOps*, wo der Security-Aspekt 
 ![DevOps - I want to get that done... ASAP as possible](img/devops.asapmeme.jpg)<!-- style="width: 95%;" -->
 [Bildquelle Bildquelle: https://imgflip.com/](Bildquelle: https://imgflip.com/)
 
-- Es werden dringliche Zuarbeitenvon anderen Teams oderAbteilungen benötigt
+- Es werden dringliche Zuarbeiten von anderen Teams oder Abteilungen benötigt
 - Es werden Tickets erzeugt
 - Wartezeiten entstehen
 
-Sie !?[Screencast zum Thema Verschwendung](https://youtu.be/EY78vVaA95E).
+Mehr zum Thema Verschwendung im Screencast:
+
+!?[Screencast zum Thema Verschwendung](https://youtu.be/EY78vVaA95E)<!-- style="width: 45%; height: 45%;" -->
 
 #### Wie könnte dieser Konflikt gelöst werden?
 
