@@ -2,7 +2,7 @@
 
 author:   Andreas Heil
 email:    andreas.heil@hs-heilbronn.de
-version:  0.1
+version:  0.2
 language: de
 narrator: DE German Male
 
@@ -69,23 +69,23 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 ## Kalender 
 
 
-| Einheit # | Datum | Thema |
+| Einheit # | Datum | Thema | Hausaufgaben | 
 | --- | --- | --- |
-|  - | 26.09.2022 | Begrüßung / Einführung |  
-|  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) | 
-|  1 | 10.10.2022 | Besprechung der Verständnisfragen |
-|  2 | 17.10.2022 | Docker Einführung | 
-|  3 | 24.10.2022 | Entfällt (Blockveranstaltung SEM) | 
-|  4 | 31.10.2022 | Besprechung der Docker Hausaufgaben | 
-|  5 | 07.11.2022 | N.N. | 
-|  6 | 14.11.2022 | N.N. | 
-|  7 | 21.11.2022 | N.N. | 
-|  8 | 28.11.2022 | Entfällt (Blockwoche SEB) |
-|  9 | 05.12.2022 | N.N. | 
-| 10 | 12.12.2022 | N.N. | 
-| 11 | 19.12.2022 | N.N. | 
-|  - | 26.12.2022 | Vorlesungsfrei |
-|  - | 02.01.2023 | Vorlesungsfrei | 
+|  0 | 26.09.2022 | Begrüßung / Einführung | [Artikel Kasteleiner und Schwartz - Einführung in DevOps](#aufgabe-1-verstandnisfragen) | 
+|  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) | |
+|  1 | 10.10.2022 | Besprechung der Verständnisfragen | [Screencasts Teil 1-5](https://youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ) | 
+|  2 | 17.10.2022 | Docker Einführung | Docker Aufgabe 1 + 2 |
+|  3 | 24.10.2022 | Entfällt (Blockveranstaltung SEM) | |
+|  4 | 31.10.2022 | Besprechung der Docker Hausaufgaben | |
+|  5 | 07.11.2022 | N.N. | |
+|  6 | 14.11.2022 | N.N. | |
+|  7 | 21.11.2022 | N.N. | |
+|  8 | 28.11.2022 | Entfällt (Blockwoche SEB) | |
+|  9 | 05.12.2022 | N.N. | |
+| 10 | 12.12.2022 | N.N. | |
+| 11 | 19.12.2022 | N.N. | |
+|  - | 26.12.2022 | Vorlesungsfrei | |
+|  - | 02.01.2023 | Vorlesungsfrei | |
 | 12 | 09.01.2023 | N.N. |
 | 13 | 17.01.2023 | N.N. | 
 
@@ -371,7 +371,9 @@ Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wied
 
 ## Screencasts
 
-WScreencasts zur Veranstaltung sind unter [https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ](https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ) zu finden. 
+Screencasts zur Veranstaltung sind unter [https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ](https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ) zu finden. 
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Literatur
 
