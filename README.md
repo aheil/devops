@@ -73,10 +73,10 @@ Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creat
 | --- | --- | --- |
 |  - | 26.09.2022 | Begrüßung / Einführung |  
 |  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) | 
-|  1 | 10.10.2022 | N.N. |
-|  2 | 17.10.2022 | N.N. | 
+|  1 | 10.10.2022 | Besprechung der Verständnisfragen |
+|  2 | 17.10.2022 | Docker Einführung | 
 |  3 | 24.10.2022 | Entfällt (Blockveranstaltung SEM) | 
-|  4 | 31.10.2022 | N.N.| 
+|  4 | 31.10.2022 | Besprechung der Docker Hausaufgaben | 
 |  5 | 07.11.2022 | N.N. | 
 |  6 | 14.11.2022 | N.N. | 
 |  7 | 21.11.2022 | N.N. | 
@@ -342,11 +342,7 @@ Diese Vorlesungseinheit basiert auf einem Gastvortrag von Markus Kiss der Fa. di
 
 #### Hausaufgabe 
 
-[Artikel zu DevOps](#aufgabe-1-verstandnisfragen)
-
-
-
-
+1. [Artikel zu DevOps](#aufgabe-1-verstandnisfragen)
 ## Übungsaufgaben und Abgaben
 
 |Aufgabe|Thema|Gewichtung (in %)|
@@ -372,6 +368,10 @@ Während des Prüfungszeitraums wird die Möglichkeit angeboten den Test zu wied
 * Notieren Sie drei Fragen bzw. offene Punkte, die sich durch das Studium des Artikels ergeben.  
 * Notieren Sie die Fragen in einer Datei und geben Sie diese als Gruppenabgabe in ILIAS ab.
 * Die Fragen werden in der folgenden Einheit besprochen.
+
+## Screencasts
+
+WScreencasts zur Veranstaltung sind unter [https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ](https://www.youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ) zu finden. 
 
 ## Literatur
 
