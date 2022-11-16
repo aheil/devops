@@ -25,6 +25,7 @@ comment:
 | **Semester** | `SEB4` |
 | **Hochschule:** | `Hochschule Heilbronn` |
 | **Inhalte:** | `Motiviation und Organisation der Veranstaltung ` |
+| Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1) | 
 | **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/01_Einfuehrung.md](https://github.com/aheil/devops/blob/main/lectures/01_einfuehrung.md) |
 | **Autoren** | @author |
 
