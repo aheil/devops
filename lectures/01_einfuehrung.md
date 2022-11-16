@@ -25,7 +25,7 @@ comment:
 | **Semester** | `SEB4` |
 | **Hochschule:** | `Hochschule Heilbronn` |
 | **Inhalte:** | `Motiviation und Organisation der Veranstaltung ` |
-| **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/00_Einfuehrung.md](https://github.com/aheil/devops/blob/main/lectures/00_Einfuehrung.md) |
+| **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/01_Einfuehrung.md](https://github.com/aheil/devops/blob/main/lectures/01_einfuehrung.md) |
 | **Autoren** | @author |
 
 ## Ziele und Kompetenzen
