@@ -37,14 +37,14 @@ Der Inhalt der Veranstaltung kann aufgrund der Weiterentwicklung der Technologie
 
 Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs_262954&client_id=iliashhn) für den Kurs mit Forum und der Möglichkeit zur Abgabe der Übungsaufgaben bereit.
 
-## Zeitplan
+## Zeitplan 
 
 | Einheit # | Datum | Thema |
 |---|---|---|
 | 0 | | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
 | 1 | | [ Container ](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
 
-<!--
+<!---
 |  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) |
 |  1 | 10.10.2022 | Besprechung der Verstänndnissfragen |
 |  2 | 17.10.2022 | Docker Einführung | Docker Aufgabe 1 + 2 |
@@ -99,7 +99,7 @@ Hauptstudium Bachelor (SEB)
 
 Sofern nicht anders angegeben, steht das gesamte Kursmaterial unter einer [Creative Commons Namensnennung 4.0 International Lizenz](https://creativecommons.org/licenses/by/4.0/). 
 
-<!-- 
+<!--- 
 # Vorlesungsmaterial 
 
 
