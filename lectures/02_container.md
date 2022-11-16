@@ -41,7 +41,8 @@ comment:
 
 Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wir betrachten hier einige Möglichkeiten eine solche Anwendung zu installieren.
 
-{{1}}<div>
+{{1}}
+************************************
 
 **Intuitives Vorgehen**
 
@@ -57,9 +58,10 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
 
   - Über die Zeit immer schwerer wartbar, da Änderungen am System nur noch schwer nachvollziehbar bzw. reproduzierbar sind 
 
-</div>
+************************************
 
-{{2}}<div>
+{{2}}
+************************************
 
 **Fortgeschrittenes Modell**
 
@@ -87,7 +89,7 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
 
   - Erhöhter Ressourcenverbrauch, da virtuelle Maschinen exklusiv Hardware in Anspruch nehmen
 
-</div>
+************************************
 
 {{3}}
 ************************************
@@ -151,7 +153,7 @@ Wie funktioniert eine virtuelle Maschine?
 ************************************
 **Was ist ein Container von Julia Evans**
 
-![](img/devops.02.julia_evans_container_zine.jpg)<!-- style="width: 75%;" -->
+![](../img/devops.02.julia_evans_container_zine.jpg)<!-- style="width: 75%;" -->
 
 (© by Julia Evans, Zine used with pending permissions)
 
