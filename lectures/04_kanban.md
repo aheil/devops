@@ -47,7 +47,7 @@ comment:
 
 Kanban System wurde sowohl für die Produktion als die Software Entwicklung adaptiert. 
 
-{{ 1 }}
+{{1}}
 ************************************
 
 **Toyota Kanban**
@@ -56,10 +56,10 @@ Kanban System wurde sowohl für die Produktion als die Software Entwicklung adap
 
 ************************************
 
-{{ 2 }}
+{{2}}
 ************************************
 
-*Drei Prinzipien*
+**Drei Prinzipien**
 
 * Visualize
 * Limit Work in Progress
@@ -72,28 +72,30 @@ Kanban System wurde sowohl für die Produktion als die Software Entwicklung adap
 **Visualisierung**
 
 * Information Fridge
-    * Muss immer wieder geöffnet werden, um nachzuschauen ob „etwas Neues drin ist“
-    * Klassische Ticket-Systeme, digitale Boards etc.
+
+  * Muss immer wieder geöffnet werden, um nachzuschauen ob „etwas Neues drin ist“
+  * Klassische Ticket-Systeme, digitale Boards etc.
 
 * Information Radiator
-    * Große sichtbare Displays
-    * Für das eigene Team und alle Interessierten
-    * Aktualisierungen möglichst einfach halten
-    * So groß wie möglich!!! 
-    * »Use it or lose it!« 
 
-{{ 1 }}
+  * Große sichtbare Displays
+  * Für das eigene Team und alle Interessierten
+  * Aktualisierungen möglichst einfach halten
+  * So groß wie möglich!!! 
+  * »Use it or lose it!« 
+
+{{1}}
 ************************************
 
 **Beispielboard**
 
-![](../assets/img/devops.04.board.jpg)
+![](../img/devops.04.board.jpg)
 
 Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.jpg, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)
 
 ************************************
 
-{{ 2 }}
+{{2}}
 ************************************
 
 **Kanban Board - Tipps**
@@ -108,25 +110,25 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 
 ************************************
 
-{{ 3 }}
+{{3}}
 ************************************
 
 **Kanban Board - Beispielaufbau**
 
-![](../assets/img/devops.04.board_aufbau.png)
+![](../img/devops.04.board_aufbau.png)
 
 ************************************
 
-{{ 4 }}
+{{4}}
 ************************************
 
 **Enter- & Exit-Kriterien**
 
-![](../assets/img/devops.04.enter_exit_criteria.png)
+![](../img/devops.04.enter_exit_criteria.png)
 
 ************************************
 
-{{ 5 }}
+{{5}}
 ************************************
 
 **Priorisierung**
@@ -158,7 +160,7 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
   * Anzahl der Tickets 
   * Typischerweise pro Spalte (in Bearbeitung, Test, Abnahme etc.) 
 
-{{ 1 }}
+{{1}}
 ************************************
 
 **Little's Law**
@@ -169,30 +171,30 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 
 * Bedeutung: Je mehr gleichzeitig bearbeitet wird, desto länger dauert die Fertigstellung aller »Work Items«
 
-![center](../assets/img/devops.04.littleslaw.png)
+![center](../img/devops.04.littleslaw.png)
 
 ************************************
 
-{{ 2 }}
+{{2}}
 ************************************
 
 **Auswirkung von Parallelität**
 
-![](../assets/img/devops.04.parallelitaet.png)
+![](../img/devops.04.parallelitaet.png)
 
 
 ************************************
 
-{{ 3 }}
+{{3}}
 ************************************
 
 **WiP-Limit**
 
-![](../asserts/img/devops.04.sequentiel.png)
+![](../img/devops.04.sequentiel.png)
 
 ************************************
 
-{{ 4 }}
+{{4}}
 ************************************
 
 **WiP-Limit Wisdoms**
@@ -206,7 +208,7 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 
 ************************************
 
-{{ 5 }}
+{{5}}
 ************************************
 
 **Praxis Tipps** 
@@ -222,6 +224,8 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 ************************************
 
 # Referenzen
+
+[1]: https://www.toyota-global.com/company/history_of_toyota/75years/text/entering_the_automotive_business/chapter1/section4/item4.html
 
 [^1]: https://www.toyota-global.com/company/history_of_toyota/75years/text/entering_the_automotive_business/chapter1/section4/item4.html
 
