@@ -111,7 +111,7 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 {{ 3 }}
 ************************************
 
-# Kanban Board - Beispielaufbau
+**Kanban Board - Beispielaufbau**
 
 ![](../assets/img/devops.04.board_aufbau.png)
 
@@ -120,7 +120,7 @@ Bildquelle: Rakuten Inc.,  https://commons.wikimedia.org/wiki/File:Lean_Kanban.j
 {{ 4 }}
 ************************************
 
-Enter- & Exit-Kriterien
+**Enter- & Exit-Kriterien**
 
 ![](../assets/img/devops.04.enter_exit_criteria.png)
 
@@ -144,7 +144,6 @@ Enter- & Exit-Kriterien
 ************************************
 
 ## Work in Progress
-
 
 * Abk.: WiP 
 
@@ -177,7 +176,7 @@ Enter- & Exit-Kriterien
 {{ 2 }}
 ************************************
 
-# Auswirkung von Parallelität
+**Auswirkung von Parallelität**
 
 ![](../assets/img/devops.04.parallelitaet.png)
 
@@ -187,7 +186,8 @@ Enter- & Exit-Kriterien
 {{ 3 }}
 ************************************
 
-# WiP-Limit
+**WiP-Limit**
+
 ![](../asserts/img/devops.04.sequentiel.png)
 
 ************************************
@@ -195,7 +195,7 @@ Enter- & Exit-Kriterien
 {{ 4 }}
 ************************************
 
-# WiP-Limit Wisdoms
+**WiP-Limit Wisdoms**
 
 * Es gibt keine »goldene Regel«
 * Beobachten und anpassen
