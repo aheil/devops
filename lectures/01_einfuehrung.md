@@ -60,26 +60,34 @@ Die Ausgangssituation stellt sich wie folgt dar:
 ### Zitate aus „Projekt Phoenix“
 
 {{1}}
-Über die Zusammenarbeit von Development und Operations
+<section>
+**Über die Zusammenarbeit von Development und Operations**
 
 > "Es ist erstaunlich, wie die Übergaben zwischen Entwicklung und IT Operations jedes Mal in die Hose gehen. Aber angesichts des dauerhaften Kleinkriegs zwischen den beiden Gruppen sollte ich nicht überrascht sein."
+</section>
 
 {{2}}
-Über Brent, dem Alleskönner, von dem alles abhängt
+<section>
+**Über Brent, dem Alleskönner, von dem alles abhängt**
 
 > „Ich sage ja nicht, dass Brent das absichtlich macht, aber ich frage mich, ob Brent sein Wissen als eine Art Superheldenkraft sieht. Vielleicht will ein Teil von ihm das gar nicht aufgeben. Er hat damit eine Stellung inne, von der ihn niemand vertreiben kann.“ „Vielleicht, vielleicht auch nicht“, sage ich. „Aber ich werde euch erzählen, was ich sicher weiß: Jedes Mal, wenn wir Brent etwas fixen lassen, das keiner von uns wiederholen kann, wird Brent ein bisschen klüger und das gesamte System ein bisschen dümmer. Wir müssen dem ein Ende bereiten.“
+</section>
 
 {{3}}
-Über erfolgreiche Teams
+<section>
+**Über erfolgreiche Teams**
 
 > "Ein großartiges Team bedeutet nicht, dass es nur aus den klügsten Köpfen besteht. Ein Team wird dann gut sein, wenn sich alle vertrauen können. Es entsteht viel Power, wenn diese Magie zwischen den Leuten existiert."
+</section>
 
 {{4}}
-Über die Zeit, in der ein neues Produkt auf dem Markt sein muss (Time-to-Market)
+<section>
+**Über die Zeit, in der ein neues Produkt auf dem Markt sein muss (Time-to-Market)**
 
 > Produkte müssen in sechs Monaten auf dem Markt sein. Höchstens in neun. Ansonsten schnappt sich eine chinesische Firma unsere Idee, bringt sie in die Läden unserer Konkurrenz und bekommt damit einen großen Marktanteil. In diesen Zeiten starker Konkurrenz muss man schnell im Markt sein und auch die Fehler schnell machen. Wir können uns ﻿keine mehrjährigen Entwicklungszyklen mehr leisten und erst am Ende erkennen, ob das Produkt gut ist oder beim Kunden durchfällt. Es müssen kurze und schnelle Zyklen sein, in denen das Feedback aus dem Markt fortlaufend einfließt.
+</section>
 
-{{5}}
+<section>
 ![Cover](https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)<!-- style="width: 30%;" -->
 
 **Projekt Phoenix**<br />
@@ -87,24 +95,30 @@ Gene Kim, Kevin Behr & George Spafford<br />
 Deutsche Ausgabe<br />
 O’Reilly, 2015<br />
 ISBN 978-3958751750<br />
+</section>
 
 ## Motivation
 
 {{1}}
+<section>
 Wie wurde früher*) Software entwickelt?
 
 ![DevOps - Wie wurde früher Software entwickelt?](../img/devops.01.legacyteams.png)<!-- style="width: 95%;" -->
 
 *) häufig ist dies auch heute noch der Fall
+</section>
 
 {{2}}
+<section>
 Kommunikationswege *)
 
 ![DevOps - Kommunikationswege](../img/devops.01.kommunikationswege.png)<!-- style="width: 95%;" -->
 
 *) Sie haben sicherlich gedacht, Sie benötigen das ganze Zeug aus der Vorlesung aus dem vergangenen Semester nicht mehr... 
+</section>
 
 {{3}}
+<section>
 Der ewige Interessenskonflikt
 
 ![DevOps - I want to get that done... ASAP as possible](../img/devops.01.asapmeme.jpg)<!-- style="width: 50%;" -->
@@ -114,15 +128,17 @@ Bildquelle: [https://imgflip.com/](https://imgflip.com/)
 - Es werden dringliche Zuarbeiten von anderen Teams oder Abteilungen benötigt
 - Es werden Tickets erzeugt
 - Wartezeiten entstehen
+</section>
 
 {{4}}
+<section>
 Mehr zum Thema Verschwendung im Screencast:
 
 !?[Screencast zum Thema Verschwendung](https://youtu.be/EY78vVaA95E)<!-- style="width: 50%; height: 50%;" -->
+</section>
 
 ## Was ist DevOps?
 
-{{1}}
 Um herauszufinden was DevOps ist, stellen wir uns einmal folgende Frage: 
 
 > Wie könnte der Konflikt zwischen Teams gelöst werden?
@@ -131,20 +147,27 @@ Kleiner Tipp aus SEKS: Warum war Canon in den 1970ern mit der Canon AE-1 gleich 
 
 *) Schon wieder etwas aus der alten Vorlesung…
 
-{{2}} Lösung: Cross-funktionale Teams
+{{1}}
+<section>
+Lösung: Cross-funktionale Teams
 
 - Ein *gemeinsames* Produktteam
 
 ![DevOps - Cross-funktionales Team](../img/devops.01.crossfunctionalteam.png)<!-- style="width: 95%;" -->
+</section>
 
-{{3}} STOP: Was ist mit dem "DevOps Engineer"? 
+{{2}}
+<section>
+STOP: Was ist mit dem "DevOps Engineer"? 
 
 ![DevOps Engineer Anzeige](../img/devops.01.devopsengineer.png)<!-- style="width: 95%;" -->
 
 - Hinterfragen, welche Rolle im DevOps-Team eingenommen werden soll
 - Welche Fähigkeiten fehlen im Team? 
+</section>
 
-{{4}} 
+{{3}} 
+<section>
 Was soll mit Cross-funktionalen Teams erreicht werden?
 
 - Team ist *eigenständig lieferfähig*
@@ -153,9 +176,10 @@ Was soll mit Cross-funktionalen Teams erreicht werden?
 - Umdenken in der Organisation: *»Betroffene zu Beteiligten machen«*
 - *Schnelle Lieferung* von Software-Änderungen optimieren
 - *»Lead Time«* soll *möglichst gering* gehalten werden, daraus resultierende *kürzere Time-to-Market* soll Marktvorteile sichern
+</section>
 
-
-{{5}}
+{{4}}
+<section>
 Wie erreichen wir die vorherigen Ziele?
 
 - *Automatisieren* von Prozessen
@@ -164,8 +188,10 @@ Wie erreichen wir die vorherigen Ziele?
 - *Agile* Vorgehensmodelle (Scrum oder Kanban)
 - Gute *Feedback- und Fehler-Kultur* (vgl. Screencasts)
 - *Fachlicher Schnitt* anstelle eines techn. Schnitts (vgl. SEKS) als Kernelement
+</section>
 
-{{6}}
+{{5}}
+<section>
  Wie können Teams selbstständig arbeiten
 
 - Abhängigkeiten reduzieren
@@ -174,8 +200,11 @@ Wie erreichen wir die vorherigen Ziele?
 - SelfServices für alles was nicht in der Verantwortung des Teams liegt
 - Mehr als ein Kollege kennt sich in (Teil-)Bereichen der Software/Infrastruktur aus (vgl. T-Shaped Skills)
 - Team »fühlt sich verantwortlich« für das gesamte Softwareprodukt (Entwicklung, Betrieb, und das 24x7)
+</section>
 
-{{7}}Zielbild: T-Shaped Skills
+{{6}}
+<section>
+Zielbild: T-Shaped Skills
 
 ![T-Shaped Skill](../img/devops.01.tshapedskill.png)<!-- style="width: 75%;" -->
 
@@ -188,12 +217,17 @@ Geschichte der T-Shaped Skills
 > However, historically speaking, the term T-shaped man can be dated back to the 1980s. At that time, McKinsey & Company used the term widely on internal documents and publications that were seen primarily by upper management. The term was referring to the idea that the T-shaped man (which also included women by that point) was ideal for recruitment as an employee and should also be looked for in terms of the consultants and partners the company decided to work with.
 
 Quelle: https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-shaped-skills/
+</section>
 
-{{8}}Beispiel: T-Shaped Skills
+{{7}}
+<section>
+Beispiel: T-Shaped Skills
 
 ![Beispiel: T-Shaped Skill](../img/devops.01.tshapedexample.png)<!-- style="width: 95%;" -->
+</section>
 
-{{9}}
+{{8}}
+<section>
 Infrastructure as Code (IaC)
 
 - Gesamte Infrastruktur wird in Konfigurationsdateien beschrieben
@@ -207,8 +241,11 @@ Infrastructure as Code (IaC)
 - Spezielle Auszeichnungssprache (JSON, YAML) in Form einer Domain Specific Language (DSL)
 
 - Beschreibungsdateien werden versioniert und liegen wie Code in einem Repository (z.B. Git)
+</section>
 
-{{10}} Metriken
+{{9}}
+<section>
+Metriken
 
 Metriken geben ein Einblick wie es unserer Applikation geht, indem kontinuierlich Messwerte geliefert werden, die visualisiert werden können. Außerdem werden wir alarmiert, wenn Messwerte bestimmte Schwellwerte unter- oder überschreiten.
 
@@ -249,8 +286,11 @@ Beispiel:a Fachliche Metriken eines Web Shops
 - Umsatz in € über den Web Shop an diesem Tag
 - Anzahl der abgeschickten Bestellungen in der letzten Stunde und deren Bezahlungsart 
 - … 
+</section>
 
-{{11}} CI/CD
+{{10}}
+<section>
+CI/CD
 
 Continuous Integration
 
@@ -259,20 +299,27 @@ Continuous Integration
 Continuous Deployment 
 
 ![Continuous Deployment](../img/devops.01.continuousdeployment.png)<!-- style="width: 95%;" -->
+</section>
 
-{{12}} Feedback und verbessertes Lernen
+{{11}}
+<section>
+Feedback und verbessertes Lernen
 
 - Produktideen sind nichts anderes als Hypothesen.
 - Je schneller eine Organisation Hypothesen einzeln oder parallel in Produktion bringt und aussagekräftige Metriken über den Erfolg oder Misserfolg sammeln kann, desto früher können aus diesen Informationen neue Hypothesen gebildet werden, und der Zyklus beginnt erneut. 
 - Das Ergebnis ist eine Organisation, die ihre Kunden nach und nach immer besser versteht.
 - Dasselbe gilt auch für externe Impulse durch Wettbewerber oder neue Technologien: Je kürzer der Feedbackzyklus ist, desto schneller kann die Organisation reagieren.
+</section>
 
-{{13}}
+{{12}}
+<section>
 Was gehört also alles dazu?
 
 ![DevOps - Was gehört alles dazu](../img/devops.01.bestandteile.png)<!-- style="width: 95%;" -->
+</section>
 
-{{14}}
+{{13}}
+<section>
 DevOps: Definition
 
 - DevOps beschreibt  eine Form der Zusammenarbeit, bei der *Entwicklung und Betrieb* einer Software als *untrennbare Einheit* angesehen werden
@@ -282,6 +329,7 @@ DevOps: Definition
 - DevOps klingt wesentlich cooler als »EntBet«
 
 - Mittlerweile auch Abwandlungen davon, z. B. *DevSecOps*, wo der Security-Aspekt explizit erwähnt wird (Berücksichtigung von Sicherheitslücken in einer Software und Umgebung)
+</section>
 
 ## Hausaufgabe 
 
