@@ -42,10 +42,10 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 | Einheit # | Datum | Thema |
 |---|---|---|
 | 1 | | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
-| 2 | | [ Container ](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
+| 2 | | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
 | 3 | | DevOps Philosophie |
-| 4 | | Kanban |
-| 5 | | Value Stream Maps | 
+| 4 | | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
+| 5 | | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
 
 <!---
 |  - | 03.10.2022 | Vorlesungsfrei (Tag d. deutschen Einheit) |
