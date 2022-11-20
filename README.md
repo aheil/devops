@@ -46,7 +46,7 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 | 3 | | DevOps Philosophie |
 | 4 | | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
 | 5 | | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
-| 6 | | []|
+| 6 | | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)]|
 
 ## Screencast
 
