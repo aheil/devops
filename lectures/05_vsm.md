@@ -26,7 +26,7 @@ comment:
 | **Hochschule:** | `Hochschule Heilbronn` |
 | **Inhalte:** | `Container ` |
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1) | 
-| **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/04_kanban.md](https://github.com/aheil/devops/blob/main/lectures/05_vsm.md) |
+| **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/05_vsm.md](https://github.com/aheil/devops/blob/main/lectures/05_vsm.md) |
 | **Autoren** | @author |
 
 ## Ziele und Kompetenzen
