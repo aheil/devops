@@ -365,14 +365,14 @@ _provisioning/roles/db/handlers/main.yml:_
 
 ```
 ---
-- name: reastart db
+- name: restart db
   service: name=db =state=refresh
 ```
 
 ```
 - name: Copy DB config
   copy: src=db.conf dest/etc/db/db.conf
-  notify: resatart db
+  notify: restart db
 ```
 ************************************
 
