@@ -28,18 +28,13 @@ comment:
 | **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/03_philosophie.md](https://github.com/aheil/devops/blob/main/lectures/03_philosopie.md) |
 | **Autoren** | @author |
 
-## Ziele und Kompetenzen
+## Motivation
+
+### Lernziele
 
 - **Verstehen** worin die Probleme in der klassischen Trennung zwischen Entwicklung und Betrieb liegen.
 
 - Den zentralen chronischen Konflikt als auch die damit in Zusammenhang stehende Abwärtsspirale hinsichtlich von Firmenzielen **verstehen**. 
-
-- Den Ursprung der DevOps Bewegung **kennen lernen** und die »Konvergenz von DevOps« **verstehen**.
-
-
-## Motivation
-
-Zu Einführung überprüfen wir, was wir über DevOps denken zu wissen...
 
 ### Wozu DevOps?
 
@@ -172,6 +167,10 @@ Ist das geplante Release _wichtiger_ als die Fehlkonfiguration der Firewall? Was
 
 ## Historie 
 
+### Lernziele 
+
+- Den Ursprung der DevOps Bewegung **kennen lernen** und die »Konvergenz von DevOps« **verstehen**.
+
 ### Ursprung
 
 DevOps wurde nicht erfunden, sondern basiert auf
@@ -278,3 +277,139 @@ DevOps wurde nicht erfunden, sondern basiert auf
 - DevOps ist nicht „einfach so entstanden“ und wurde nicht „erfunden“ 
 - Zahlreiche Bewegungen „konvergierten“ in eine ähnliche Richtung
 - Die Entwicklung von DevOps hat sich über Jahre hingezogen
+
+## Kennzahlen in der Wertekette 
+
+### Lernziele 
+
+- Die drei grundlegenden Metriken bzw. Kennzahlen Durchlaufzeit, Verarbeitungszeit als auch %C/A kennen lernen.
+
+- Probleme langer Deployment Durchläufe verstehen und erkennen können. 
+
+- Den Unterschied zwischen Durchlaufzeiten und Verarbeitungszeit verstehen. 
+
+### Technologie-Wertekette 
+
+Grundlage stellt das sog. **Lean Manufacturing** dar.
+
+- Prinzipien und Theorien 
+- Wertekette als „Folge von Aktivitäten, die eine Firma vornimmt, um eine Kundenanforderung zu erfüllen“ [7]
+Voraussetzungen für schnelle Durchlaufzeiten: reibungsloser und gleichmäßiger Arbeitsfluss
+
+[7] K. Martin, M. Osterling, Value Stream Mapping: How to Visualize Work and Align Leadership for Organizational Transformation, McGraw Hill, 2013
+
+{{1}}
+************************************
+
+**Technologie-Wertekette**
+
+Prozess der ein Geschäftsziel in einen durch Technologie unterstützten Dienst wandelt.
+
+- Begin: Arbeit in der Entwicklung / Backlog aufnehmen
+- Entwicklung: Implementierung von Code, Commit in eine Versionsverwaltung, von wo aus, jede Änderung gebaut und mit dem Rest der Anwendung integriert und getestet wird
+- Wertschöpfung: Entsteht erst, wenn die Dienste produktiv laufen
+
+Für eine zügige Wertschöpfung... 
+
+- muss die Entwicklung  in einem schnellen Flow liefern
+	darf Deployment weder Chaos, Ausfälle noch Probleme verursachen
+
+************************************
+
+{{2}}
+************************************
+
+**Durchlaufzeiten**
+
+![](../img/devops.03.durchlaufzeiten.png)
+
+- Da für den Kunden relevant, sind Durchlaufzeiten meist im Fokus von Prozessoptimierungen
+- Verhältnis von Verarbeitungszeit zu Durchlaufzeit ist wichtige Kennzahl für Effizienz
+- Kurze Verarbeitungszeiten bedeuten kürzere Wartezeiten 
+
+************************************
+
+{{3}}
+************************************
+
+**Klassische Deployment Durchläufe**
+
+![](../img/devops.03.klassisches_deployment.png)
+
+- Wochen bis Monate
+- Lange Laufzeiten erfordern Heldentaten
+- Probleme werden erst spät erkannt
+- Oftmals mit manuellem Testen und Bestätigungsprozessen verbunden
+
+************************************
+
+{{4}}
+************************************
+
+**Deployment-Durchlaufzeiten**
+
+![](../img/devops.03.deplyment_durchlaufzeiten.png)
+
+- Deployment Durchlaufzeiten beginnen mit dem Check-In,
+enden mit dem Deployment und 
+- sind Teil der Verarbeitungszeit. 
+
+************************************
+
+{{5}}
+************************************
+
+**Kurze Deployment-Durchlaufzeiten**
+
+- Entwickler erhalten schnell und fortwährend Feedback zur Arbeit 
+- Konsequenz: Schnell und unabhängig 
+
+  - Implementieren
+  - Integrieren
+  - Validieren 
+  - Deployen
+
+- Notwendig
+
+  - Modulare Architektur 
+  - Saubere Kapselung 
+  - Loose gekoppelte Komponenten
+
+> **Konsequenz**: Fehler bleiben überschaubar, können schnell eingegrenzt werden und verursachen keinen globalen Schaden.
+
+************************************
+
+{{6}}
+************************************
+
+**Qualitätsmetrik: Complete and Accurate **
+
+- Complete and Accurate (%C/A) [8]
+- % the customer can perform a task without having to CAC 
+
+  - _**C**orrect information that was supplied_
+  - _**A**dd missing information that should have been supplied_
+  - _**C**larify information provided that should have been clear_
+
+- D.h. wieviel % der Arbeit kann entlang der Wertekette genutzt werden ohne die erhalten Daten korrigieren, ergänzen oder nachfragen zu müssen
+- Bei uns: Wieviel der Arbeit kann im nächsten Prozessschritt genutzt werden, ohne diese zu überarbeiten.
+
+[8] M. Osterling, K. Martin, Lean Mindset & Behaviours, AMEChicago2012, 2012, https://www.slideshare.net/KarenMartinGroup/lean-mindsets-behaviors-workshop-ame-chicago-2012 
+
+************************************
+
+{{7}}
+************************************
+
+**%C/A am Beispiel **
+
+![](../img/devops.03.ac.png)
+
+- Um möglichst schnelle Deployment Durchläufe zu erreichen ist eine hohe %C/A erforderlich
+
+  - Wieviel kann ohne CAC getestet werden
+  - Wieviel kann ohne CAC explorativ getestet werden
+  - Wie gut kann ohne CAC deployed werden
+
+************************************
+
