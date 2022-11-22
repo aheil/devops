@@ -129,11 +129,12 @@ Ist eigentlich allen klar was "Betrieb" oder "Betriebsumfeld" bedeutet?
   * Automatisiertes Paketieren  
 
 * Was wollen wir speziell im Betriebsumfeld automatisiert skripten?
-    * Automatisierte Installationen
-    * Automatisierte Updates
-    * Automatisierte Konfigurationen
-    * Automatisierte Installationen 
-    * Automatisierte Rückbauten 
+
+  * Automatisierte Installationen
+  * Automatisierte Updates
+  * Automatisierte Konfigurationen
+  * Automatisierte Installationen 
+  * Automatisierte Rückbauten 
 
 ************************************
 
