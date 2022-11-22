@@ -413,3 +413,271 @@ enden mit dem Deployment und
 
 ************************************
 
+## 3 Wege 
+
+### Lernziele 
+
+- Die drei Wege in DevOps **kennen lernen**.
+
+- Den Nutzen von WIP-Limits **verstehen**.
+
+- Single-Piece Flow kennen lernen und die daraus resultierende Konsequenz **verstehen**.
+
+- **Verstehen** warum viele Übergaben zu langen Deployment-Durchlaufzeiten führen. 
+
+- **Verstehen** wie man Flaschenhälse identifiziert und Ansätze kennen lernen, diese zu beseitigen. 
+
+- Das Konzept der Verschwendung **kennen lernen** und **verstehen** wie man Verschwendung vermeidet.
+
+### 3 Wege 
+
+Drei Wege als grundlegende Prinzipien für Verhaltensweisen und Muster in DevOps [9].
+
+- Flow 
+- Schnelles und kontinuierliches Feedback
+- Kultur des firmenweiten kontinuierlichen Lernens
+
+![](../img/devops.03.drei_wege.png)
+
+[9] G. Kim, K. Behr, G. Spafford , Projekt Phoenix: Der Roman über IT und DevOps , O`Reilly, 2015
+
+
+{{1}}
+************************************
+
+**Arbeit sichtbar machen**
+
+In Technologiewerteketten ist nicht ersichtlich
+
+- Wo die Arbeit stockt
+- Wo sich Arbeit stapelt 
+- Wo Arbeit hin- und her geschoben wird
+- Wo Arbeit begonnen aber nicht beendet wird
+
+**Lösung**: Arbeit via sog. Arbeitsboards sichtbar machen 
+
+- Sprint-Planungs-Boards
+- Kanban Boards 
+
+![](../img/devops.03.board.png)
+
+> Mehr dazu später im Abschnitt Kanban.
+
+************************************
+
+{{2}}
+************************************
+
+**Durchlaufzeit**
+
+
+- Wie bestimmt sich die Durchlaufzeit?
+- Wann ist die Arbeit fertig?
+
+1[](../img/devops.03.board_durchlaufzeit.png)
+
+************************************
+
+{{3}}
+************************************
+
+**Work in Progress (WiP)**
+
+Im Industriellen sind die Arbeiten durch Fertigungsprozesse und   Kundenbestellungen geprägt, in der IT oftmals durch dringlichere Aufgaben, der „Priorität des Tages“.
+
+Konsequenz:
+- Unterbrechungen
+- Multitasking
+- Damit verbundene Mehraufwände [10]
+
+[10] J.S. Rubinstein, D.E. Meyer, J.E. Evans, Executive control of cognitive processes in task switching. Journal of Experimental Psychology: Human Perception and Performance, 27(4), 763–797, 2001, https://doi.org/10.1037/0096-1523.27.4.763
+
+************************************
+
+{{4}}
+************************************
+
+**WiP-Limit**
+
+Work in Progress limitieren:
+
+- Es darf an nichts gearbeitet werden, was nicht zuvor auf einer Karte festgehalten wurde 
+- Es darf nur an etwas gearbeitet werden, das sich in der Spalte „in Progress“ oder „in Arbeit“ hängt 
+- Es darf nur eine bestimmte Anzahl Karten in der Sparte „in Progress“ bzw. „in Arbeit hängen“ 
+
+
+************************************
+
+{{5}}
+************************************
+
+**WIP-Limit Konsequenzen**
+
+- WIP-Limits sind wichtige Indikatoren für Durchlaufzeiten [W1, W2].
+- Nichts zu tun trotz voller Spalte „in Bearbeiten“!? 
+- Was bedeutet das?
+- Verlockend, jetzt etwas anderes anzufangen! 
+- Besser: Herausfinden, warum wir warten und die Ursache beseitigen! 
+
+> Stop starting, start finishing.
+
+************************************
+
+{{6}}
+************************************
+
+**Single-Piece Flow**
+
+- Kleine Batch-Größen
+- Lean: Batch-Größen kontinuierlich zu verringern 
+- Theoretische Untergrenze: Single-Piece Flow
+
+************************************
+
+{{7}}
+************************************
+
+**Große Batch-Größen**
+
+![](../img/devops.03.grosse_batch_groessen.png)
+
+************************************
+
+
+{{7}}
+************************************
+
+**Kleine Batch-Größen**
+
+![](../img/devops.03.kleine_batch_groessen.png)
+
+************************************
+
+{{8}}
+************************************
+
+**Arbeitsschritte**
+
+Wie viele Schritte halten Sie in einem Prozess für realistisch, um Code aus der Versionsverwaltung in die Produktivumgebung zu bringen?
+
+- [( )] 1-10
+- [( )] 10-100
+- [(x)] 100-1.000
+
+Z.B. Umgebungen erstellen, Server einrichten, Auschecken, Bauen, Testen, Administration, Storage verwalten, Netzwerk konfigurieren, Load Balancing, Sicherheitsmaßnahmen, noch mehr Testen, Freigaben… 
+
+************************************
+
+
+
+### Übergaben
+
+Bei jeder Übergabe
+ 
+- Ist Kommunikation erforderlich
+- Existiert die Gefahr von Wartezeiten
+- Geht Information verloren
+
+![](../img/devops.03.informationsverlust.png)
+
+> **Problem**: Ressourcen werden in unterschiedlichen Werteketten genutzt
+
+{{1}}
+************************************
+
+**Vermeiden von Übergaben**
+
+- Maßnahmen 
+
+  - Anzahl von Übergaben verringern
+  - Automatisierung 
+  - Reorganisation der Teams
+
+- Resultate
+
+  - Erhöhter Flow durch reduzierte Wartezeiten 
+  - Zeit reduziert, in der kein Wert generiert wird 
+
+************************************
+
+{{2}}
+************************************
+
+**Flaschenhälse identifizieren**
+
+- Es gibt in Werteketten **genau eine** Fließrichtung 
+- Es gibt **genau einen** Flaschenhals 
+- Optimierungen vor dem Flaschenhals verschlimmern den Rückstau 
+- Optimierungen nach dem Flaschenhals verschlimmern die Idle-Zeit 
+
+-![](../img/devops.03.flaschenhals.png)
+
+************************************
+
+{{3}}
+************************************
+
+**Fünf fokussierende Schritte
+
+1. Den Flaschenhals finden
+2. Herausfinden, wie der Flaschenhals beseitigt werden kann
+3. Alles andere diesen Maßnahmen unterordnen 
+4. Den Flaschenhals beheben 
+5. Zurück zu Schritt 1 – jetzt wird es einen neuen Flaschenhals geben
+
+************************************
+
+{{4}}
+************************************
+
+**DevOps Muster**
+
+Lange Deployment-Laufzeiten folgen oft ähnlichen Mustern:
+
+- Umgebungen 
+- Deployment 
+- Testen 
+- Architektur 
+
+
+************************************
+
+### Verschwendung 
+
+Verschwendung (engl. waste, jap. Muda 無駄)
+
+Klassisch: Alles wofür ein Kunde nicht bereit ist zu zahlen, oder was er nicht benötigt [11]
+Bei uns: Alles was Verzögerung verursachen kann [12]
+
+[11] S. Shingo, A Study of the Toyota Productive System: From Industrial Engineering Viewpoint, Productivity Press, 1989
+[12] M. Poppendieck, T. Poppendieck, Implementing Lean Software: From Concept to Cash, Addison-Wesley, 2007
+
+{{1}}
+************************************
+
+**Arten der Verschwendung**
+
+- Teilweise erledigte Arbeit
+- Zusätzliche Prozesse 
+- Zusätzliche Features
+- Aufgabenwechsel
+- Warten
+- Bewegung
+- Fehler
+- Nicht standardisierte oder manuelle Arbeit
+- Heldentaten
+
+************************************
+
+### Zusammenfassung
+
+- 3 Wege
+
+- Flow erzeugen durch 
+  - Sichtbar machen der Arbeit 
+  - WIP-Limits einführen
+  - Kleine Batch-Größen nutzen
+- Übergaben minimieren bzw. vermeiden
+- Flaschenhälse identifizieren und beseitigen 
+- Verschwendung minimieren 
+
