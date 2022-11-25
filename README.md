@@ -48,6 +48,15 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 | 5 | | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
 | 6 | | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
 
+## Übungsaufgaben / Abgaben 
+
+| Abgabe # | Aufgabe |
+|---|---|
+| 1 | [Verständnisfragen](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercise.md#1) |
+| 2 | [Docker Webserver](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercise.md#2) |
+| 3 | [Docker CI-Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercise.md#3) |
+| 4 | [Ansible Playbook](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercise.md#4) |
+| 5 | [Vagrant Box](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercise.md#5) |
 ## Screencast
 
 [Screencasts Teil 1-5](https://youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ)
@@ -81,6 +90,16 @@ Hauptstudium Bachelor (SEB)
 
 - 30h Kontaktstunden/Lerneinheiten
 - 90h Selbststudium
+
+**Leistungsnachweis**
+
+Die Veranstaltung hat die Prüfungsform LA. Die Leistungen erfolgen mittels Abgaben von 5 Übungsaufgaben. 
+
+Zusätzlich wird während der Vorlesungszeit ein Test geschrieben. 
+
+Das Bestehen des Tests ist Voraussetzung für das Bestehen der Veranstaltung. 
+
+Im Klausurzeitraum wir eine Möglichkeit zum Nachschreiben angeboten. 
 
 **Lizenz**
 
