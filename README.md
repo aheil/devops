@@ -41,12 +41,17 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 
 | Einheit # | Datum | Thema |
 |---|---|---|
-| 1 | | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
-| 2 | | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
-| 3 | | [DevOps Philosophie](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03_philosophie.md#1) |
-| 4 | | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
-| 5 | | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
-| 6 | | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
+| 1 | 26.10.2022 | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
+| 2 | 17.10.2022 | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
+| 3 | 24.10.2022 | [DevOps Philosophie](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03_philosophie.md#1) |
+| 4 | 07.11.2022 | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
+| 5 | 14.11.2022 | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
+| 6 | 21.11.2022 | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
+|| 05.12.2022 | Vagrant |
+|| 12.12.2022 | Pipelines |
+|| 19.12.2022 | DevOps Test |
+|| 09.01.2023 | GitOps |
+|| 16.01.2022 | DevOps KPIs und DORA |
 
 ## Übungsaufgaben / Abgaben 
 
