@@ -26,8 +26,8 @@ comment:
 | **Hochschule:** | `Hochschule Heilbronn` |
 | **Inhalte:** | `Übungen und Abgaben` |
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1) | 
-| **Link auf GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/99_exercises.md](https://github.com/aheil/devops/blob/main/lectures/99_exercises.md) |
-| **Darstellung als interaktiver LiaScript Kurs:** | ![https://LiaScript.github.io/course/?https://github.com/aheil/devops/lectures/99_exercises.md](https://LiaScript.github.io/course/?https://github.com/aheil/devops/lectures/99_exercises.md)  |
+| **Link auf GitHub:** | [https://github.com/aheil/devops/blob/master/lectures/99_exercises.md](https://github.com/aheil/devops/blob/master/lectures/99_exercises.md) |
+| **Darstellung als interaktiver LiaScript Kurs:** | [https://LiaScript.github.io/course/?https://github.com/aheil/devops/master/lectures/99_exercises.md](https://LiaScript.github.io/course/?https://github.com/aheil/devops/master/lectures/99_exercises.md)  |
 | **Autoren** | @author |
 
 ## Aufgabe 1 - Verständnisfragen
@@ -147,6 +147,25 @@ In dieser Übung erstellen Sie ein Ansible Playbook.
 - Abgaben via E-Mail werden nicht gewertet.
 
 ## Aufgabe 5 - Vagrant Box
+
+In dieser Aufgabe entwickeln Sie ein Deployment auf Basis einer Vagrantbox, in der Sie das zuvor gelernte anwenden.
+
+Sie deployen einen Web Server in einem Docker Container, der eine statische Webseite ausliefert. Der Conntainer als auch der statische Content werden mittels einem Ansible Skript in einer Vagrantbox ausgerollt. 
+
+### Aufgabenstellung 
+
+- Erstellen Sie ein Dockerfile zum Erzeugen eines entsprechenden Images
+
+  - Verwenden Sie hierfür ein Alpine (aktuellste Version)
+  - Installieren Sie Apache2 oder nginx im Image und konfigurieren Sie es so, dass es eine statische Seite ausliefert
+
+Task 1 - Docker Image
+Create a Docker image suitable for the above scenario. Choose the base image of any Linux distribution you want to use.
+Make sure either nginx od apache will be installed in the image.
+Make sure the static web page is provided via a volume to the container to be exchangeable.
+Task 2 - Vagrantbox
+Create a Vagrantbox capable of running docker and to be provisioned via Ansible.
+Create an Ansible script to deploy both, the image as well as the static web site content to your Vagrantbox.
 
 
 
