@@ -23,7 +23,7 @@ comment:
 | **Veranstaltung:** | `262062 DevOps`|
 | **Semester** | `SEB4` |
 | **Hochschule:** | `Hochschule Heilbronn` |
-| **Inhalte:** | `Container ` |
+| **Inhalte:** | `Philosophie` |
 | Startseite | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1) | 
 | **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/03_philosophie.md](https://github.com/aheil/devops/blob/main/lectures/03_philosopie.md) |
 | **Autoren** | @author |
