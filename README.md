@@ -47,7 +47,7 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 | 4 | 07.11.2022 | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
 | 5 | 14.11.2022 | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
 | 6 | 21.11.2022 | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
-|| 05.12.2022 | Vagrant |
+|| 05.12.2022 | [Vagrant](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/07_vagrant.md#1)|
 || 12.12.2022 | Pipelines |
 || 19.12.2022 | DevOps Test |
 || 09.01.2023 | GitOps |
