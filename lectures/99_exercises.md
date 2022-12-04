@@ -154,18 +154,20 @@ Sie deployen einen Web Server in einem Docker Container, der eine statische Webs
 
 ### Aufgabenstellung 
 
-- Erstellen Sie ein Dockerfile zum Erzeugen eines entsprechenden Images
+Teilaufgabe 1: Erstellen Sie ein Dockerfile zum Erzeugen eines entsprechenden Images analog zu Aufgabe 2
 
-  - Verwenden Sie hierfür ein Alpine (aktuellste Version)
-  - Installieren Sie Apache2 oder nginx im Image und konfigurieren Sie es so, dass es eine statische Seite ausliefert
+- Verwenden Sie hierfür ein Alpine (aktuellste Version)
+- Installieren Sie Apache2 oder nginx im Image und konfigurieren Sie es so, das es eine statische Seite ausliefert
+- Stellen Sie sicher, dass eine statische Webseite (`index.html`) über ein Volume/Mounting ausgeliefert wird. 
 
-Task 1 - Docker Image
-Create a Docker image suitable for the above scenario. Choose the base image of any Linux distribution you want to use.
-Make sure either nginx od apache will be installed in the image.
-Make sure the static web page is provided via a volume to the container to be exchangeable.
-Task 2 - Vagrantbox
-Create a Vagrantbox capable of running docker and to be provisioned via Ansible.
-Create an Ansible script to deploy both, the image as well as the static web site content to your Vagrantbox.
+Teilaufgabe 2: 
+
+- Erstellen Sie eine Vagrantbox
+- Die Vagrantbox muss Docker ausführen können und über Ansible provisioniert werden 
+- Erzeugen Sie ein Ansible Skript, das sowohl Docker installiert, als auch das entsprechende Dockerfile in der Vagrantbox deployt.
+- Stellen Sie sicher, dass das Volume/Mount für die statische `index.html` Datei aus dem `/vagrant` Share stammt, und die Datei auf dem Host-System aktualisiert werden kann.
+
+
 
 
 
