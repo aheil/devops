@@ -41,13 +41,27 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 
 | Einheit # | Datum | Thema |
 |---|---|---|
-| 1 | | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
-| 2 | | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
-| 3 | | DevOps Philosophie |
-| 4 | | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
-| 5 | | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
-| 6 | | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
+| 1 | 26.10.2022 | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
+| 2 | 17.10.2022 | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
+| 3 | 24.10.2022 | [DevOps Philosophie](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03_philosophie.md#1) |
+| 4 | 07.11.2022 | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
+| 5 | 14.11.2022 | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
+| 6 | 21.11.2022 | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
+|| 05.12.2022 | Vagrant |
+|| 12.12.2022 | Pipelines |
+|| 19.12.2022 | DevOps Test |
+|| 09.01.2023 | GitOps |
+|| 16.01.2022 | DevOps KPIs und DORA |
 
+## Übungsaufgaben / Abgaben 
+
+| Abgabe # | Aufgabe |
+|---|---|
+| 1 | [Verständnisfragen](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercises.md#2) |
+| 2 | [Docker Webserver](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercises.md#3) |
+| 3 | [Docker CI-Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercises.md#4) |
+| 4 | [Ansible Playbook](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercises.md#5) |
+| 5 | [Vagrant Box](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99_exercises.md#6) |
 ## Screencast
 
 [Screencasts Teil 1-5](https://youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ)
@@ -81,6 +95,16 @@ Hauptstudium Bachelor (SEB)
 
 - 30h Kontaktstunden/Lerneinheiten
 - 90h Selbststudium
+
+**Leistungsnachweis**
+
+Die Veranstaltung hat die Prüfungsform LA. Die Leistungen erfolgen mittels Abgaben von 5 Übungsaufgaben. 
+
+Zusätzlich wird während der Vorlesungszeit ein Test geschrieben. 
+
+Das Bestehen des Tests ist Voraussetzung für das Bestehen der Veranstaltung. 
+
+Im Klausurzeitraum wir eine Möglichkeit zum Nachschreiben angeboten. 
 
 **Lizenz**
 
