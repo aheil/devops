@@ -226,6 +226,9 @@ Beispiel: T-Shaped Skills
 ![Beispiel: T-Shaped Skill](../img/devops.01.tshapedexample.png)<!-- style="width: 95%;" -->
 </section>
 
+
+Weiterführende Artikel zu T-Shaped Skills (Drippy T-Shape Skill-Modell): https://synapsenstau.de/t-shaped-skills/ 
+
 {{8}}
 <section>
 Infrastructure as Code (IaC)
