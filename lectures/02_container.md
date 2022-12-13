@@ -109,7 +109,7 @@ Wie funktioniert eine virtuelle Maschine?
   - Die Ressourcen stehen weder dem Host-System, noch den anderen virtuellen Maschinen zur Verfügung 
 
   - Die virtuelle Maschine bringt ihren ganz eigenen Hardware Abstraction Layer und simuliert die ganze Hardware 
- 
+
 ![](../img/devops.02.vms.png) <!-- style="width: 75%;" -->
 
 ************************************
@@ -126,16 +126,22 @@ Wie funktioniert eine virtuelle Maschine?
   - eine virtuelle Maschine für das Backend
   - eine virtuelle Maschine für den Web Server
   - eine virtuelle Maschine für das Monitoring 
- z.B.
-        * Container für Front-End 
-        * Je ein Container pro Service
-        * Je ein Container pro Datenbank 
-    * Vorteile
-        * Leichtgewichtig
-        * Unabhängig 
-        * Konfigurierbar 
-    * Nachteile
-        * Stichwort Kubernetes
+
+z.B.
+
+  * Container für Front-End 
+  * Je ein Container pro Service
+  * Je ein Container pro Datenbank 
+
+* Vorteile
+
+  * Leichtgewichtig
+  * Unabhängig 
+  * Konfigurierbar 
+
+* Nachteile
+
+  * Stichwort Kubernetes
 
 ![](../img/devops.02.containers.png) <!-- style="width: 75%;" -->
 
