@@ -54,3 +54,7 @@ comment:
 - What is a DevOps pipeline? A complete guide: https://resources.github.com/devops/pipeline/
 
 
+### Workshop Ergebnisse WiSe 22
+
+![](../img/devops.whiteboard.gitops.wise22.jpg)
+
