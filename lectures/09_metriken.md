@@ -69,7 +69,7 @@ Anders ausgedrückt: Wie  kann der Erfolg von DevOps gemessen werden? Wie kann d
   {{2}}
 	************************************
 	
-  **Metriken, Lebel und Anforderungen von DORA ^[1]**
+  **Metriken, Lebel und Anforderungen von DORA [^1]**
 
 |Metrik|Level Elite     |Level High|Level Medium|Level Low|
 |Deployment Frequency   |on demand/mehrere Deployments pro Tag|einmal pro Woche bis einmal pro Monat|einmal pro Monat bis halbjährlich|seltener als halbjährlich|
@@ -114,7 +114,7 @@ Bassierend auf den gemessenen KPIs lassen sich die Teams einordnen und konkrete 
 
 - Lernkultur
 - Begrenzung des Arbeitsumfangs -> WiP Limit
-- Trunk-based Development ^[2]
+- Trunk-based Development [^2]
 
 ************************************
 
@@ -123,7 +123,7 @@ Bassierend auf den gemessenen KPIs lassen sich die Teams einordnen und konkrete 
 
 **Level Elite**
 
-- DevOps-Kultur/Westrum-Organisationskultur ^[3]
+- DevOps-Kultur/Westrum-Organisationskultur [^3]
 - Monitoring/Observability 
 - Arbeitsaufteilung (Small Batches)
 
@@ -134,10 +134,7 @@ Bassierend auf den gemessenen KPIs lassen sich die Teams einordnen und konkrete 
 
 ## Referenzen 
 
-^[1]: Patrick Weimer, KPI-driven DevOps - das Resultat zählt, ix, Ausgabe 10 2022 S. 106 - 108 
-^[2]: DevOps tech: Trunk-based development: https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development
-^[3]: DevOps culture: Westrum organizational culture: https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture
-
-
-
-https://www.youtube.com/watch?v=gHQC7mClmzE
+[^1]: Patrick Weimer, KPI-driven DevOps - das Resultat zählt, ix, Ausgabe 10 2022 S. 106 - 108  
+[^2]: DevOps tech: Trunk-based development: https://cloud.google.com/architecture/devops/devops-tech-trunk-based-development  
+[^3]: DevOps culture: Westrum organizational culture: https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture  
+[^4]: Dave Farley, Did Microservices Break DORA?, https://www.youtube.com/watch?v=gHQC7mClmzE
