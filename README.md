@@ -50,7 +50,7 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 | 7 | 05.12.2022 | [Vagrant](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/07_vagrant.md#1) |
 |8 | 12.12.2022 | [GitOps + Pipelines](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/08_gitops.md#1) |
 | n/a | 19.12.2022 | DevOps Test |
-| 9 | 09.01.2023 | [DevOps KPIs und DORA]((https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/09_metriken.md#1)) |
+| 9 | 09.01.2023 | [DevOps KPIs und DORA](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/09_metriken.md#1) |
 | 10 | 16.01.2022 | Abschlusstermin / Puffer |
 
 ## Übungsaufgaben / Abgaben 
