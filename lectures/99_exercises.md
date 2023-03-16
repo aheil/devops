@@ -38,11 +38,11 @@ In dieser Aufgabe setzen Sie sich mit einem Artikel über DevOps auseinander.
 
 - Lesen Sie den Artikel von Kasteleiner und Schwartz **DevOps**, Informatik Spektrum 42, S.211-214 (2019): https://doi.org/10.1007/s00287-019-01173-2
 
-Link: [https://rdcu.be]
+- Link zum Artikel: [https://rdcu.be/b709M]
 
 - Welche Punkte sind Ihnen in dem Artikel nicht klar?
 
-  - Notieren Sie drei Fragen zum Artikel in einer Testdatei.
+  - Notieren Sie drei Fragen zum Artikel in einer Testdatei (*.txt).
   
   - Laden Sie die Datei in der zugehörigen Aufgabe in ILIAS hoch. 
 
