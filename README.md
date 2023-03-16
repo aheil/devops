@@ -41,17 +41,17 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 
 | Einheit # | Datum | Thema |
 |---|---|---|
-| 1 | 26.10.2022 | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
-| 2 | 17.10.2022 | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
-| 3 | 24.10.2022 | [DevOps Philosophie](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03_philosophie.md#1) |
-| 4 | 07.11.2022 | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
-| 5 | 14.11.2022 | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
-| 6 | 21.11.2022 | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
-| 7 | 05.12.2022 | [Vagrant](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/07_vagrant.md#1) |
-|8 | 12.12.2022 | [GitOps + Pipelines](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/08_gitops.md#1) |
-| n/a | 19.12.2022 | DevOps Test |
-| 9 | 09.01.2023 | [DevOps KPIs und DORA](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/09_metriken.md#1) |
-| 10 | 16.01.2022 | Abschlusstermin / Puffer |
+| 1 | 16.03.2023 | [Einführung und Motivation](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/01_einfuehrung.md#1) |
+| 2 | 20.03.2023 | [Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/02_container.md#1)|
+| 3 |  | [DevOps Philosophie](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03_philosophie.md#1) |
+| 4 |  | [Kanban](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/04_kanban.md#1) |
+| 5 |  | [Value Stream Maps](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1) | 
+| 6 |  | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06_ansible.md#1)|
+| 7 |  | [Vagrant](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/07_vagrant.md#1) |
+|8 |  | [GitOps + Pipelines](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/08_gitops.md#1) |
+| n/a |  | DevOps Test |
+| 9 |  | [DevOps KPIs und DORA](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/09_metriken.md#1) |
+| 10 |  | Abschlusstermin / Puffer |
 
 ## Übungsaufgaben / Abgaben 
 
