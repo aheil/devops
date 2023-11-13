@@ -129,11 +129,7 @@ In dieser Übung erstellen Sie ein Ansible Playbook.
     * Sämtliche Ports sind geschlossen
     * Geöffnet sind die Ports 
 
-      * 22
-      * 80
-      * 443
-      * 110
-      * 587
+      * 22 (SSH), 80 (HTTP), 443 (HTTPS), 110 (POP3), 587 (SMTP)
     
   * [Cron](https://help.ubuntu.com/community/CronHowto) 
 
