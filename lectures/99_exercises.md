@@ -125,8 +125,9 @@ In dieser Übung erstellen Sie ein Ansible Playbook.
 3. Erstellen Sie ein Playbook, das folgende Rollen beinhaltet
 
   * [UFW](https://help.ubuntu.com/community/UFW) 
-  
+
     * Sämtliche Ports sind geschlossen
+
     * Geöffnet sind die Ports 
 
       * 22 (SSH), 80 (HTTP), 443 (HTTPS), 110 (POP3), 587 (SMTP)
