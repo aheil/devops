@@ -17,7 +17,7 @@ comment:
 -->
 
 
-# DevOps - Container
+# DevOps - Kanban
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

@@ -16,7 +16,7 @@ comment:
 
 -->
 
-# DevOps - Container
+# DevOps - Value Stream Maps
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |
