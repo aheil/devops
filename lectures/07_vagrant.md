@@ -16,7 +16,7 @@ comment:
 -->
 
 
-# DevOps - Ansible
+# DevOps - Vagrant
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

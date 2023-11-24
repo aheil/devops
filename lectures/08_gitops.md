@@ -16,7 +16,7 @@ comment:
 -->
 
 
-# DevOps - Ansible
+# DevOps - GitOps
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |

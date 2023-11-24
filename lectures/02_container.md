@@ -120,13 +120,6 @@ Wie funktioniert eine virtuelle Maschine?
 
 - Dienste, Server-Komponenten und Datenbanken werden in kleinen, isolierten Einheiten (aka Containern) betrieben
 
-- Konkret würde dies z.B. bedeuten: 
-
-  - eine virtuelle Maschine für die Datenbank#
-  - eine virtuelle Maschine für das Backend
-  - eine virtuelle Maschine für den Web Server
-  - eine virtuelle Maschine für das Monitoring 
-
 z.B.
 
   * Container für Front-End 

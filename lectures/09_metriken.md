@@ -16,7 +16,7 @@ comment:
 -->
 
 
-# DevOps - Ansible
+# DevOps - Metriken
 
 <!-- data-type="none" -->
 | Parameter | Kursinformationen |
