@@ -14,3 +14,5 @@
   * [DevOps - GitOps](lectures/08\_gitops.md)
   * [DevOps - Metriken](lectures/09\_metriken.md)
   * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
+* [Zeitplan](zeitplan.md)
+* [Übungsaufgaben und Abgaben](uebungsaufgaben-und-abgaben.md)
