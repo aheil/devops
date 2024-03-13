@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Kursinformationen](README.md)
+  * [Termine](readme/termine.md)
 * [lectures](lectures/README.md)
   * [DevOps - Einführung und Motivation](lectures/01\_einfuehrung.md)
   * [DevOps - Container](lectures/02\_container.md)
@@ -12,4 +13,3 @@
   * [DevOps - GitOps](lectures/08\_gitops.md)
   * [DevOps - Metriken](lectures/09\_metriken.md)
   * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
-* [Termine](termine.md)
