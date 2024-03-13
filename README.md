@@ -1,10 +1,12 @@
+---
+description: >-
+  Dieses Repository ist Teil des Bachelor-Studiengangs Software Engineering
+  (SEB) an der Hochschule Heilbronn.
+---
+
 # Kursinformationen
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://github.com/aheil/devops)
-
 ## DevOps
-
-Dieses Repository ist Teil des Bachelor-Studiengangs Software Engineering (SEB) an der Hochschule Heilbronn.
 
 Die Veranstaltung basiert u.a. auf dem Buch _Das DevOps Handbuch_ von Gene Kim at al. Die Veranstaltung vermittelt das Mindset der DevOps-Philosophie und führt in eine Reihe von Techniken und Technologien entlang eines typischen DevOps-Zyklus ein. Hier finden immer wieder aktuelle Technologien und Tools in der Veranstaltung Einzug. Der Kurs baut auf Veranstaltungen aus dem 2. und 3. Semester auf.
 
