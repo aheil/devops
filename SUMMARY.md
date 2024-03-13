@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Kursinformationen](README.md)
+* [lectures](lectures/README.md)
+  * [DevOps - Einführung und Motivation](lectures/01\_einfuehrung.md)
+  * [DevOps - Container](lectures/02\_container.md)
+  * [DevOps - Philosophie](lectures/03\_philosophie.md)
+  * [04\_kanban](lectures/04\_kanban.md)
+  * [DevOps - Value Stream Maps](lectures/05\_vsm.md)
+  * [DevOps - Ansible](lectures/06\_ansible.md)
+  * [DevOps - Vagrant](lectures/07\_vagrant.md)
+  * [DevOps - GitOps](lectures/08\_gitops.md)
+  * [DevOps - Metriken](lectures/09\_metriken.md)
+  * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
+* [Termine](termine.md)
