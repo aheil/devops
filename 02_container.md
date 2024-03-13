@@ -215,7 +215,16 @@ ENTRYPOINT [ "/entrypoint.sh" ]
 
 ## Aufgabe
 
-
+1. Docker installieren
+   1. Docker Desktop (Windows, Mac, Linux): [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+   2. Install Docker Engines: [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
+2. Erstellen Sie ein [`Dockerfile`](https://docs.docker.com/engine/reference/builder/) auf Basis dessen Sie ein Image erstellen werden.
+3. Installieren Sie in Ihrem Image [nginx](https://www.nginx.com/) als Webserver. Hinweis: Nutzen Sie hierfür **nicht** das _nginx_ Image.
+4. Erstellen Sie eine Default-Seite (`index.html`), die von Ihrem Webserver standardmäßig angezeigt wird.
+5. Die `index.html` Datei soll auf Ihrem Host System vorliegen und via [`Volume`](http://nginx.org/en/docs/beginners\_guide.html) oder [`Bind Mount`](https://docs.docker.com/storage/bind-mounts/) innerhalb des Containers bereitgestellt werden.
+6. Stellen Sie sicher, dass _nginx_ mit dem Starten des Containers startet.
+7. Routen Sie den Port 8080 auf den Port 80 Ihres Containers und öffnen Sie die Datei vom Browser Ihres Hostsystems via (`http://localhost:8080/index.html`)
+8. Ändern Sie die Datei auf dem Host-System und laden Sie die Datei neu im Browser.
 
 Referenzen
 
