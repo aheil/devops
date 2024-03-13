@@ -18,13 +18,7 @@ Der Inhalt der Veranstaltung kann aufgrund der Weiterentwicklung der Technologie
 
 Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs\_262954\&client\_id=iliashhn) für den Kurs mit Forum und der Möglichkeit zur Abgabe der Übungsaufgaben bereit.
 
-### Zeitplan
-
-### Übungsaufgaben / Abgaben
-
-### Screencast
-
-[Screencasts Teil 1-5](https://youtube.com/playlist?list=PLBXz7ZC5wx7jL3kXRIkdOT9Jh7CbdjXqJ)
+###
 
 ### Kursübersicht
 
@@ -55,7 +49,7 @@ Hauptstudium Bachelor (SEB)
 **Workload**
 
 * 30h Kontaktstunden/Lerneinheiten
-* 90h Selbststudium
+* 60h Selbststudium
 
 **Leistungsnachweis**
 
