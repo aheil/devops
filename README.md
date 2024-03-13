@@ -8,7 +8,7 @@ Dieses Repository ist Teil des Bachelor Studiengangs Software Engineering (SEB) 
 
 Die Veranstaltung basiert u.a. auf dem Buch _Das DevOps Handbuch_ von Gene Kim at al. Die Veranstaltung vermittelt das Mindset der DevOps-Philosophie und führt in eine Reihe von Techniken und Technologien entlang eines typischen DevOps-Zyklus ein. Hier finden immer wieder aktuelle Technologien und Tools in der Veranstaltung Einzug. Der Kurs baut auf Veranstaltungen aus dem 2. und 3. Semester auf.
 
-Programmierkenntnisse als auch ein sicherer Umgang mit Git bzw. GitLab wird vorausgesetzt. Der erfolgreiche Abschluss der Veranstaltung Developer Tools im Software Engineering (262051) ist daher empfohlen. Grundlagen in der Erstellung von Skripten sollten bereits in der Vorlesung Betriebssysteme (262007) erworben worden sein. Die erfolgreiche Teilnahme an Grundlagen verteilter Systeme (262055) und Software Engineering komplexer Systeme (262061) ist ebenfalls empfohlen, da zahlreiche Konzepte der darin behandelten Themen aufgegriffen werden.
+Programmierkenntnisse als auch ein sicherer Umgang mit Git bzw. GitLab wird vorausgesetzt. Der erfolgreiche Abschluss der Veranstaltung Developer Tools im Software Engineering (262051) ist daher empfohlen. Grundlagen in der Erstellung von Skripten sollten bereits in der Vorlesung Betriebssysteme (262007) erworben worden sein. Die erfolgreiche Teilnahme an Grundlagen verteilter Systeme (262055), Software Engineering komplexer Systeme (262061) und Projektmanagement & Tools (262063) ist ebenfalls empfohlen, da zahlreiche Konzepte der darin behandelten Themen aufgegriffen werden.
 
 In Gruppenarbeit werden praktische Aufgabenstellungen erarbeitet, deren erfolgreiche Bearbeitung Voraussetzung zum Bestehen des Kurses ist.
 
@@ -21,14 +21,6 @@ Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.h
 ### Zeitplan
 
 ### Übungsaufgaben / Abgaben
-
-| Abgabe # | Aufgabe                                                                                                                                      |
-| -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1        | [Verständnisfragen](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99\_exercises.md#2)   |
-| 2        | [Docker Webserver](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99\_exercises.md#3)    |
-| 3        | [Docker CI-Container](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99\_exercises.md#4) |
-| 4        | [Ansible Playbook](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99\_exercises.md#5)    |
-| 5        | [Vagrant Box](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/99\_exercises.md#6)         |
 
 ### Screencast
 

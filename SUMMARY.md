@@ -2,6 +2,7 @@
 
 * [Kursinformationen](README.md)
   * [Termine](readme/termine.md)
+  * [Übungsaufgaben](readme/uebungsaufgaben.md)
 * [lectures](lectures/README.md)
   * [DevOps - Einführung und Motivation](lectures/01\_einfuehrung.md)
   * [DevOps - Container](lectures/02\_container.md)
