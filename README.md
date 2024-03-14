@@ -20,48 +20,18 @@ Der Inhalt der Veranstaltung kann aufgrund der Weiterentwicklung der Technologie
 
 Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs\_262954\&client\_id=iliashhn) für den Kurs mit Forum und der Möglichkeit zur Abgabe der Übungsaufgaben bereit.
 
-###
-
 ### Kursübersicht
 
-Dieser Kurs ist ein Grundlagenkurs im Bachelor Studiengang Software Engineering Bachelor (262062).
-
-**Dozent**
-
-Prof. Andreas Heil
-
-**Kursnummer**
-
-262062 (SPO4)
-
-**Level**
-
-Hauptstudium Bachelor (SEB)
-
-**Semesterwochenstunden/ECTS**
-
-2/3
-
-**Kurszeiten**
-
-* 1 Vorlesungseinheit/Woche
-* 90 Min./Einheit
-* Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen [Stundenplan](https://splan.hs-heilbronn.de/).
-
-**Workload**
-
-* 30h Kontaktstunden/Lerneinheiten
-* 60h Selbststudium
-
-**Leistungsnachweis**
-
-Die Veranstaltung hat die Prüfungsform LA. Die Leistungen erfolgen mittels Abgaben von 5 Übungsaufgaben.
-
-Zusätzlich wird während der Vorlesungszeit ein Test geschrieben.
-
-Das Bestehen des Tests ist Voraussetzung für das Bestehen der Veranstaltung.
-
-Im Klausurzeitraum wir eine Möglichkeit zum Nachschreiben angeboten.
+|                              |                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dozent                       | Prof. Andreas Heil                                                                                                                                                                                                                                                                                                                                                                                       |
+| Kursnummer                   | 262062 (SPO4)                                                                                                                                                                                                                                                                                                                                                                                            |
+| Level                        | Hauptstudium Bachelor (SEB)                                                                                                                                                                                                                                                                                                                                                                              |
+| Semesterwochenstunden / ECTS | 2 / 3                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Kurszeiten                   | <ul><li>1 Vorlesungseinheit/Woche</li><li>90 Min./Einheit</li><li>Die genauen Veranstaltungszeiten entnehmen Sie bitte dem aktuellen <a href="https://splan.hs-heilbronn.de/">Stundenplan</a>.</li></ul>                                                                                                                                                                                                 |
+| Workload                     | <ul><li>30h Kontaktstunden/Lerneinheiten</li><li>60h Selbststudium</li></ul>                                                                                                                                                                                                                                                                                                                             |
+| Leistungsnachweis            | <ul><li>Die Veranstaltung hat die Prüfungsform LA. Die Leistungen erfolgen mittels Abgaben von Übungsaufgaben aus den Vorlesungen und Hausaufgaben.</li><li>Zusätzlich wird während der Vorlesungszeit ein Test geschrieben.</li><li>Das Bestehen des Tests ist Voraussetzung für das Bestehen der Veranstaltung.</li><li>Im Klausurzeitraum wir eine Möglichkeit zum Nachschreiben angeboten.</li></ul> |
+| Lizenz                       |                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 **Lizenz**
 

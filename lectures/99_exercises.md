@@ -31,13 +31,7 @@ In dieser Aufgabe setzen Sie sich mit einem Artikel über DevOps auseinander.
 
 * Weiter Tipps finden Sie unter [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile\_best-practices/)
 
-### Abgabe
-
-* Erstellen Sie eine `README.txt` Datei in der Sie die Kommandozeile angeben, die für den Start Ihres Containers erforderlich ist (z.B. mit Port- und Volume-Angaben)
-* Stellen Sie das `Dockerfile` als auch die `README.txt` als ZIP-Datei bereit und stellen Sie diese in [ILIAS](https://ilias.hs-heilbronn.de/goto.php?target=crs\_262954\&client\_id=iliashhn) unter der entsprechenden Abgabe bereit.
-* Zu spät eingereichte Dateien werden nicht gewertet.
-* Andere Abgaben (oder korrupte bzw. passwortgeschützte ZIP-Dateien) werden nicht gewertet.
-* Abgaben via E-Mail werden nicht gewertet.
+###
 
 ## Aufgabe 3 - Docker CI-Container
 

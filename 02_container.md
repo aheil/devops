@@ -86,10 +86,6 @@ z.B.
 * Hardware-Virtualisierung, Isolation und API (Betriebssystem-Kernel, vgl. Betriebssysteme aus SEB2) werden kontrolliert
 * Keine Virtualisierung des Betriebssystems, sondern eine Art der »User-Space-Virtualisierung« auf Basis von Kernel Features.
 
-\{{1\}}
-
-***
-
 **Was ist ein Container von Julia Evans**
 
 ![(© by Julia Evans, Zine used with pending permissions)](img/devops.02.julia\_evans\_container\_zine.jpg)
@@ -226,6 +222,8 @@ ENTRYPOINT [ "/entrypoint.sh" ]
 7. Routen Sie den Port 8080 auf den Port 80 Ihres Containers und öffnen Sie die Datei vom Browser Ihres Hostsystems via (`http://localhost:8080/index.html`)
 8. Ändern Sie die Datei auf dem Host-System und laden Sie die Datei neu im Browser.
 9. Erstellen Sie eine README.TXT und notieren Sie die Zeile wie der Container über die Kommandozeile gebaut und gestartet werden kann.&#x20;
+
+
 
 ### Bewertungskriterien
 
