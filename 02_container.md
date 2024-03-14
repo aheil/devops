@@ -225,6 +225,13 @@ ENTRYPOINT [ "/entrypoint.sh" ]
 6. Stellen Sie sicher, dass _nginx_ mit dem Starten des Containers startet.
 7. Routen Sie den Port 8080 auf den Port 80 Ihres Containers und öffnen Sie die Datei vom Browser Ihres Hostsystems via (`http://localhost:8080/index.html`)
 8. Ändern Sie die Datei auf dem Host-System und laden Sie die Datei neu im Browser.
+9. Erstellen Sie eine README.TXT und notieren Sie die Zeile wie der Container über die Kommandozeile gebaut und gestartet werden kann.&#x20;
+
+### Bewertungskriterien
+
+* Das Image wird auf Basis des bereitgestellten `Dockerfile` und der README.TXT erstellt und der Container gestartet.
+* Die bereitgestellte `index.html` wird via `http://localhost:8080` abgefragt.
+* Im Anschluss wird die `index.html` auf dem Host-System verändert und neu im Browser geladen, die Änderungen sollen sich hierbei widerspiegeln.
 
 Referenzen
 

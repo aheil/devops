@@ -2,7 +2,8 @@
 
 * [Kursinformationen](README.md)
   * [Zeitplan](readme/zeitplan.md)
-  * [Übungsaufgaben](readme/uebungsaufgaben.md)
+  * [Übungsaufgaben](readme/uebungsaufgaben/README.md)
+    * [Docker CI Container](readme/uebungsaufgaben/docker-ci-container.md)
 * [DevOps - Container](02\_container.md)
 * [Archiv](lectures/README.md)
   * [DevOps - Einführung und Motivation](lectures/01\_einfuehrung.md)
