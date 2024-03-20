@@ -22,7 +22,9 @@ layout:
 
 ## **Was ist Docker Compose?**
 
-Docker Compose (kurz Compose) ist eine einfache und **deklarative** Möglichkeit, mehrere Container zu definieren, zu verwalten und zu orchestrieren, die eine Anwendung bilden. Durch die Verwendung einer einzigen **YAML-Datei** können Entwickler die gesamte Infrastruktur ihrer Anwendung beschreiben, einschließlich der Container-Konfiguration, Netzwerke, Volumes und Umgebungsvariablen.
+In der vorherigen Einheite haben wir einen einzelnen Container auf der Kommandozeile gestartet. Was aber, wenn wir mehrere Container zusammen starten wollen, weil diese alle für eine Anwendung benötigt werden. Z.B. eine Datenbank, ein Backend, ein Webserver und das Frontend?&#x20;
+
+Docker Compose (kurz Compose) ist eine einfache und **deklarative** Möglichkeit, mehrere Container zu definieren, zu verwalten und zu orchestrieren, die eine Anwendung bilden. Durch die Verwendung einer einzigen **YAML-Datei** können wir die gesamte Infrastruktur ihrer Anwendung beschreiben, einschließlich der Container-Konfiguration, Netzwerke, Volumes und Umgebungsvariablen.
 
 ## Einführung Docker-Compose
 
@@ -89,7 +91,7 @@ Wenn ein Container dieses benannte Volume verwendet, werden die Daten, die in di
 >
 > Da benannte Volumes persistent sind und Daten zwischen Containern und Neustarts speichern, können Sicherheitsrisiken entstehen, wenn sensible oder vertrauliche Daten in diesen Volumes gespeichert werden, insbesondere wenn der Zugriff nicht angemessen kontrolliert wird.
 
-Zusätzlich zum Named Mount existiert ein sog. **Bind Mount**. Bind Mounts wurden in der vorherigen Übung verwendet. Der Hauptunterschied zwischen ihnen liegt in der Art und Weise, wie sie verwendet werden und wie Docker sie verwaltet:
+Zusätzlich zum Named Mount existiert ein sog. **Bind Mount**. Bind Mounts wurden bereits in der vorherigen Übung verwendet. Der Hauptunterschied zwischen ihnen liegt in der Art und Weise, wie sie verwendet werden und wie Docker sie verwaltet:
 
 ### Named Volume
 
@@ -113,14 +115,68 @@ Zusätzlich zum Named Mount existiert ein sog. **Bind Mount**. Bind Mounts wurde
 
 Bind Mounts sind gut geeignet, um bestimmte Dateien oder Verzeichnisse aus dem Host-Dateisystem in einen Container einzubinden, Named Volumes hingegen bieten eine robuste Lösung für die Speicherung persistenter Daten bieten, die unabhängig vom Lebenszyklus der Container sind.
 
+## Übungen
+
+### Aufgabe 1: Einfaches Docker-Compose Projekt
+
+Erstellen Sie Docker-Compose-Projekt, das einen einfachen Webserver mit einer HTML-Seite bereitstellt.
+
+* Nutzen Sie als Images `nginx:latest`\
+
+* Erstellen Sie einen Ordner namens `html` im selben Verzeichnis wie Ihre`docker-compose.yaml`-Datei und legen Sie eine einfache `index.html`-Datei mit einem beliebigen Inhalt darin ab.\
+
+* Verwenden Sie ein Bind Mound um den Ordner .`/html` auf den Ordner  `/usr/share/nginx/html` im Container zu mounten.\
+
+* Führe Sie den Befehl `docker-compose up` aus, um dein Docker-Compose-Projekt zu starten. Sie können deinen Webserver unter `http://localhost:8080` aufrufen und die Inhalte deiner `index.html`-Datei sehen, und wie in der vorherigen Aufgabe auf dem Host-System ändern.
+
+### Aufgabe 2: Umgebungsvariablen in Docker-Compose
+
+Erstellen Sie eine Docker-Compose-Datei, die eine Anwendung startet, die eine Umgebungsvariable verwendet, um eine Konfiguration anzupassen.
+
+* Verwenden Sie ein beliebiges Image \
+
+* Nutzen Sie das command Element und führend damit folgenden Befehl aus \
+  \
+  `sh -c "echo Hallo $msg"`\
+
+* Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable und weisen Ihr den Wert "Welt" zu. \
+
+* Führen Sie  den Befehl `docker-compose up` aus. Die Anwendung wird gestartet und sollte "Hallo Welt" ausgeben.\
+
+* Ändern Sie die Umgebungsvariable in der folgenden Art ab und testen Sie die Ausgabe\
+  \
+  `docker-compose up --build -env msg=SEB4`
+
+### Aufgabe 3: Volumes
+
+Erstellen Sie ein Docker-Compose-Projekt, das eine Datenbank enthält und einen Persistenten Speicher für die Daten verwendet.
+
+* Verwenden Sie das MySQL 5.7 Image
+* Nutzen Sie ein Named Volume mit dem Namen **db\_data**
+* Stellen Sie sicher, dass sie Datenbank, User und Passwort mittels Umgebungsvariablen setzen
+
+### Aufgabe 4: Mehrer Dienste
+
+Erstellen Sie ein Compose-Projekt, das eine Datenbank wie aus Aufgabe 3, ein Webserver wie aus Aufgabe 1 und zusätzlich ein Node.js Server startet.&#x20;
+
+Stellen Sie mittels [depends\_on](https://docs.docker.com/compose/compose-file/05-services/#depends\_on) sicher, dass der MySQL Server vor dem Node-Server startet.
+
+### Aufgabe 5: Skalierung&#x20;
+
+Erweiteren SIe das vorhandene Docker-Compose-Projekt aus Übung 4, um die Skalierung des Backend-Dienstes zu ermöglichen.
+
+Variante 1: Nutzen Sie das [deploy ](https://docs.docker.com/compose/compose-file/deploy/)Element um 3 Replicas des Backends zu erzeugen \
+
+
+Variante 2: Entfernen Sie das deploy-Element und starten sie die Compose mit folgendem Befehl:\
 \
-\
+`docker-compose up --scale backend=3`
 
+In beiden Fällen sollten Ihre Container ungefähr so in Docker Desktop dargestellt werden:
 
-\
+<figure><img src=".gitbook/assets/image (1).png" alt="" width="332"><figcaption><p>Skalierung von Docker Containern</p></figcaption></figure>
 
-
-
+Ändern Sie die Compose-Datei zurück in Variante 1 und starten Sie das Projekt mit dem Befehl aus Variante 2. Wie viele Backend Container werden durch diese Kombination gestartet?&#x20;
 
 ## Links
 
