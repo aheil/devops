@@ -132,15 +132,18 @@ Erstellen Sie Docker-Compose-Projekt, das einen einfachen Webserver mit einer HT
 
 Erstellen Sie eine Docker-Compose-Datei, die eine Anwendung startet, die eine Umgebungsvariable verwendet, um eine Konfiguration anzupassen.
 
-* Verwenden Sie ein beliebiges Image \
-
-* Nutzen Sie das command Element und führend damit folgenden Befehl aus \
+* Verwenden Sie ein beliebiges Image&#x20;
+* Nutzen Sie das [command ](https://docs.docker.com/compose/compose-file/05-services/#command)Element und führend damit folgenden Befehl aus:\
   \
   `sh -c "echo Hallo $$msg"`\
 
-* Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable und weisen Ihr den Wert "Welt" zu. \
+* Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable und weisen Ihr den Wert "Welt" zu.&#x20;
+* Führen Sie  den Befehl `docker-compose up` aus. Die Anwendung wird gestartet und sollte "Hallo Welt" ausgeben.
 
-* Führen Sie  den Befehl `docker-compose up` aus. Die Anwendung wird gestartet und sollte "Hallo Welt" ausgeben.\
+Ihre Ausgabe sollte ähnlich zu folgender sein: \
+
+
+<figure><img src=".gitbook/assets/image (2).png" alt="" width="256"><figcaption></figcaption></figure>
 
 * Ändern Sie die Umgebungsvariable in der folgenden Art ab und testen Sie die Ausgabe\
   \
