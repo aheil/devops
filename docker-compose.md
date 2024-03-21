@@ -135,9 +135,9 @@ Erstellen Sie eine Docker-Compose-Datei, die eine Anwendung startet, die eine Um
 * Verwenden Sie ein beliebiges Image&#x20;
 * Nutzen Sie das [command ](https://docs.docker.com/compose/compose-file/05-services/#command)Element und führend damit folgenden Befehl aus:\
   \
-  `sh -c "echo Hallo $$msg"`\
+  `sh -c "echo Hallo $$MSG"`\
 
-* Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable und weisen Ihr den Wert "Welt" zu.&#x20;
+* Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable `MSG` und weisen Ihr den Wert "Welt" zu.&#x20;
 * Führen Sie  den Befehl `docker-compose up` aus. Die Anwendung wird gestartet und sollte "Hallo Welt" ausgeben.
 
 Ihre Ausgabe sollte ähnlich zu folgender sein: \
@@ -145,9 +145,24 @@ Ihre Ausgabe sollte ähnlich zu folgender sein: \
 
 <figure><img src=".gitbook/assets/image (2).png" alt="" width="256"><figcaption></figcaption></figure>
 
-* Ändern Sie die Umgebungsvariable in der folgenden Art ab und testen Sie die Ausgabe\
+* Löschen Sie nun den environment Eintrag aus der _docker-compose.yml_ Datei.&#x20;
+* Legen Sie im gleichen Ordner, eine Datei an mit dem Namen **.env**&#x20;
+*   Schreiben Sie in die Datei eine Variable \
+
+
+    ```properties
+    MSG=SEB4
+    ```
+* Ändern Sie nun in der _docker-compose.yml_ Datei den command Eintrag wie folgt\
   \
-  `docker-compose up --build -env msg=SEB4`
+  `sh -c "echo Hallo ${msg}`
+* Führen Sie  den Befehl `docker-compose up` aus. Die Anwendung wird gestartet und sollte "Hallo Welt" ausgeben.
+
+Ihre Ausgabe sollte ähnlich zu folgender sein:&#x20;
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="252"><figcaption></figcaption></figure>
+
+**Hinweis**: Über die Syntax `${variablenname}` wird in Docker Compose auf Variablen zugegriffen.
 
 ### Aufgabe 3: Volumes
 
@@ -155,7 +170,7 @@ Erstellen Sie ein Docker-Compose-Projekt, das eine Datenbank enthält und einen 
 
 * Verwenden Sie das MySQL 5.7 Image
 * Nutzen Sie ein Named Volume mit dem Namen **db\_data**
-* Stellen Sie sicher, dass sie Datenbank, User und Passwort mittels Umgebungsvariablen setzen
+* Stellen Sie sicher, dass sie Datenbank, User und Passwort mittels Umgebungsvariablen setzen (entweder in der Docker-Compose Datei oder in einer .env Datei)
 
 ### Aufgabe 4: Mehrer Dienste
 
@@ -165,7 +180,7 @@ Stellen Sie mittels [depends\_on](https://docs.docker.com/compose/compose-file/0
 
 ### Aufgabe 5: Skalierung&#x20;
 
-Erweiteren SIe das vorhandene Docker-Compose-Projekt aus Übung 4, um die Skalierung des Backend-Dienstes zu ermöglichen.
+Erweiteren Sie das vorhandene Docker-Compose-Projekt aus Übung 4, um die Skalierung des Backend-Dienstes zu ermöglichen.
 
 Variante 1: Nutzen Sie das [deploy ](https://docs.docker.com/compose/compose-file/deploy/)Element um 3 Replicas des Backends zu erzeugen \
 
@@ -176,7 +191,7 @@ Variante 2: Entfernen Sie das deploy-Element und starten sie die Compose mit fol
 
 In beiden Fällen sollten Ihre Container ungefähr so in Docker Desktop dargestellt werden:
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="332"><figcaption><p>Skalierung von Docker Containern</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="332"><figcaption><p>Skalierung von Docker Containern</p></figcaption></figure>
 
 Ändern Sie die Compose-Datei zurück in Variante 1 und starten Sie das Projekt mit dem Befehl aus Variante 2. Wie viele Backend Container werden durch diese Kombination gestartet?
 
