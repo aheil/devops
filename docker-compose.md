@@ -121,13 +121,12 @@ Bind Mounts sind gut geeignet, um bestimmte Dateien oder Verzeichnisse aus dem H
 
 Erstellen Sie Docker-Compose-Projekt, das einen einfachen Webserver mit einer HTML-Seite bereitstellt.
 
-* Nutzen Sie als Images `nginx:latest`\
-
-* Erstellen Sie einen Ordner namens `html` im selben Verzeichnis wie Ihre`docker-compose.yaml`-Datei und legen Sie eine einfache `index.html`-Datei mit einem beliebigen Inhalt darin ab.\
-
-* Verwenden Sie ein Bind Mound um den Ordner .`/html` auf den Ordner  `/usr/share/nginx/html` im Container zu mounten.\
-
-* Führe Sie den Befehl `docker-compose up` aus, um dein Docker-Compose-Projekt zu starten. Sie können deinen Webserver unter `http://localhost:8080` aufrufen und die Inhalte deiner `index.html`-Datei sehen, und wie in der vorherigen Aufgabe auf dem Host-System ändern.
+* Nutzen Sie als Images `nginx:latest`
+* Erstellen Sie einen Ordner namens `html` im selben Verzeichnis wie Ihre`docker-compose.yaml`-Datei und legen Sie eine einfache `index.html`-Datei mit einem beliebigen Inhalt darin ab.
+* Verwenden Sie ein Bind Mound um den Ordner .`/html` auf den Ordner `/usr/share/nginx/html` im Container zu mounten.
+* Routen Sie den Port 8080 auf den Port 80 Ihres Containers.
+* Führe Sie den Befehl `docker-compose up` aus, um dein Docker-Compose-Projekt zu starten. Sie können den Webserver unter `http://localhost:8080` aufrufen und die Inhalte der `index.html`-Datei sehen.&#x20;
+* Ändern Sie die Datei wie in der vorherigen Aufgabe auf dem Host-System  und lasse Sie sich diese Änderungen über ein Refresh Ihres Browser anzeigen.
 
 ### Aufgabe 2: Umgebungsvariablen in Docker-Compose
 
@@ -176,7 +175,11 @@ In beiden Fällen sollten Ihre Container ungefähr so in Docker Desktop dargeste
 
 <figure><img src=".gitbook/assets/image (1).png" alt="" width="332"><figcaption><p>Skalierung von Docker Containern</p></figcaption></figure>
 
-Ändern Sie die Compose-Datei zurück in Variante 1 und starten Sie das Projekt mit dem Befehl aus Variante 2. Wie viele Backend Container werden durch diese Kombination gestartet?&#x20;
+Ändern Sie die Compose-Datei zurück in Variante 1 und starten Sie das Projekt mit dem Befehl aus Variante 2. Wie viele Backend Container werden durch diese Kombination gestartet?
+
+## Hausaufgabe
+
+Bearbeiten Sie die Aufgabe [Docker CI Container](https://prof.aheil.de/devops/uebungsaufgaben/docker-ci-container).&#x20;
 
 ## Links
 
