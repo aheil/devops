@@ -137,7 +137,7 @@ Erstellen Sie eine Docker-Compose-Datei, die eine Anwendung startet, die eine Um
 
 * Nutzen Sie das command Element und führend damit folgenden Befehl aus \
   \
-  `sh -c "echo Hallo $msg"`\
+  `sh -c "echo Hallo $$msg"`\
 
 * Setzen Sie mit dem [environment](https://docs.docker.com/compose/compose-file/05-services/#environment) Element eine Umgebungsvariable und weisen Ihr den Wert "Welt" zu. \
 
