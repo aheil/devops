@@ -1,22 +1,21 @@
-# DevOps - Einführung und Motivation
+# DevOps - Grudlagen
 
-| Parameter                | Kursinformationen                                                                                                                                                                                              |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Veranstaltung:**       | `262062 DevOps`                                                                                                                                                                                                |
-| **Semester**             | `SEB4`                                                                                                                                                                                                         |
-| **Hochschule:**          | `Hochschule Heilbronn`                                                                                                                                                                                         |
-| **Inhalte:**             | `Motiviation und Organisation der Veranstaltung`                                                                                                                                                               |
-| Startseite               | [https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/README.md#1) |
-| **Link auf den GitHub:** | [https://github.com/aheil/devops/blob/main/lectures/01\_Einfuehrung.md](01\_einfuehrung.md)                                                                                                                    |
-| **Autoren**              | @author                                                                                                                                                                                                        |
+| Parameter          | Kursinformationen                                            |
+| ------------------ | ------------------------------------------------------------ |
+| **Veranstaltung:** | `262062 DevOps`                                              |
+| **Semester**       | `SEB4`                                                       |
+| **Hochschule:**    | `Hochschule Heilbronn`                                       |
+| **Inhalte:**       | `Motiviation und Organisation der Veranstaltung`             |
+| Startseite         | [https://prof.aheil.de/devops](https://prof.aheil.de/devops) |
+| **Autoren**        | Andreas Heil                                                 |
 
 ## Ziele und Kompetenzen
 
-In dieser Einheit lernen Sie die
+In dieser Einheit werden Sie
 
-* grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebsorganisation kennen lernen,
-* verstehen was mit DevOps erreicht werden soll und
-* Sie lernen einige Möglichkeiten, wie diese Ziele erreicht werden können.
+* Grundlegende Probleme der herkömmlichen Entwicklungs- und Betriebsorganisation **kennen** lernen,
+* **Verstehen** was mit DevOps erreicht werden soll .
+* Sie lernen einige Möglichkeiten **kennen**, wie diese Ziele erreicht werden können.
 
 ## Projekt Phoenix
 
@@ -38,31 +37,25 @@ Die Ausgangssituation stellt sich wie folgt dar:
 
 ### Zitate aus „Projekt Phoenix“
 
-\{{1\}}
-
-\*\*Über die Zusammenarbeit von Development und Operations\*\*
+**Über die Zusammenarbeit von Development und Operations**
 
 > "Es ist erstaunlich, wie die Übergaben zwischen Entwicklung und IT Operations jedes Mal in die Hose gehen. Aber angesichts des dauerhaften Kleinkriegs zwischen den beiden Gruppen sollte ich nicht überrascht sein."
 
-\{{2\}}
-
-\*\*Über Brent, dem Alleskönner, von dem alles abhängt\*\*
+**Über Brent, dem Alleskönner, von dem alles abhängt**
 
 > „Ich sage ja nicht, dass Brent das absichtlich macht, aber ich frage mich, ob Brent sein Wissen als eine Art Superheldenkraft sieht. Vielleicht will ein Teil von ihm das gar nicht aufgeben. Er hat damit eine Stellung inne, von der ihn niemand vertreiben kann.“ „Vielleicht, vielleicht auch nicht“, sage ich. „Aber ich werde euch erzählen, was ich sicher weiß: Jedes Mal, wenn wir Brent etwas fixen lassen, das keiner von uns wiederholen kann, wird Brent ein bisschen klüger und das gesamte System ein bisschen dümmer. Wir müssen dem ein Ende bereiten.“
 
-\{{3\}}
-
-\*\*Über erfolgreiche Teams\*\*
+**Über erfolgreiche Teams**
 
 > "Ein großartiges Team bedeutet nicht, dass es nur aus den klügsten Köpfen besteht. Ein Team wird dann gut sein, wenn sich alle vertrauen können. Es entsteht viel Power, wenn diese Magie zwischen den Leuten existiert."
 
-\{{4\}}
-
-\*\*Über die Zeit, in der ein neues Produkt auf dem Markt sein muss (Time-to-Market)\*\*
+**Über die Zeit, in der ein neues Produkt auf dem Markt sein muss (Time-to-Market)**
 
 > Produkte müssen in sechs Monaten auf dem Markt sein. Höchstens in neun. Ansonsten schnappt sich eine chinesische Firma unsere Idee, bringt sie in die Läden unserer Konkurrenz und bekommt damit einen großen Marktanteil. In diesen Zeiten starker Konkurrenz muss man schnell im Markt sein und auch die Fehler schnell machen. Wir können uns ﻿keine mehrjährigen Entwicklungszyklen mehr leisten und erst am Ende erkennen, ob das Produkt gut ist oder beim Kunden durchfällt. Es müssen kurze und schnelle Zyklen sein, in denen das Feedback aus dem Markt fortlaufend einfließt.
 
-!\[Cover]\(https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg)
+
+
+<figure><img src="https://oreilly.de/wp-content/uploads/2020/07/12508-scaled.jpg" alt="" width="188"><figcaption><p>Projekt Phoenix</p></figcaption></figure>
 
 **Projekt Phoenix**\
 Gene Kim, Kevin Behr & George Spafford\
@@ -73,27 +66,21 @@ ISBN 978-3958751750\
 
 ## Motivation
 
-\{{1\}}
+Wie wurde früher\*) Software entwickelt? Pro Technologie, Fachbereich, Einsatzgebiet ein eigenes Team:
 
-Wie wurde früher\*) Software entwickelt?
-
-![DevOps - Wie wurde früher Software entwickelt?](../img/devops.01.legacyteams.png)
+![Wie wurde früher Software entwickelt?](img/devops.01.legacyteams.png)
 
 \*) häufig ist dies auch heute noch der Fall
 
-\{{2\}}
 
-Kommunikationswege \*)
 
-![DevOps - Kommunikationswege](../img/devops.01.kommunikationswege.png)
+Hierdurch entsteht ein hoher Abstimmungsbedarf, wenn etwas von einem anderen Team benötigt wird.
 
-\*) Sie haben sicherlich gedacht, Sie benötigen das ganze Zeug aus der Vorlesung aus dem vergangenen Semester nicht mehr...
+![DevOps - Kommunikationswege](img/devops.01.kommunikationswege.png)
 
-\{{3\}}
+### Der ewige Interessenskonflikt
 
-Der ewige Interessenskonflikt
-
-![DevOps - I want to get that done... ASAP as possible](../img/devops.01.asapmeme.jpg)
+![DevOps - I want to get that done... ASAP as possible](img/devops.01.asapmeme.jpg)
 
 Bildquelle: [https://imgflip.com/](https://imgflip.com/)
 
@@ -101,13 +88,7 @@ Bildquelle: [https://imgflip.com/](https://imgflip.com/)
 * Es werden Tickets erzeugt
 * Wartezeiten entstehen
 
-\{{4\}}
-
-Mehr zum Thema Verschwendung im Screencast:
-
-!?[Screencast zum Thema Verschwendung](https://youtu.be/EY78vVaA95E)
-
-## Was ist DevOps?
+## Die Lösung: DevOps?
 
 Um herauszufinden was DevOps ist, stellen wir uns einmal folgende Frage:
 
@@ -123,13 +104,13 @@ Lösung: Cross-funktionale Teams
 
 * Ein _gemeinsames_ Produktteam
 
-![DevOps - Cross-funktionales Team](../img/devops.01.crossfunctionalteam.png)
+![DevOps - Cross-funktionales Team](img/devops.01.crossfunctionalteam.png)
 
 \{{2\}}
 
 STOP: Was ist mit dem "DevOps Engineer"?
 
-![DevOps Engineer Anzeige](../img/devops.01.devopsengineer.png)
+![DevOps Engineer Anzeige](img/devops.01.devopsengineer.png)
 
 * Hinterfragen, welche Rolle im DevOps-Team eingenommen werden soll
 * Welche Fähigkeiten fehlen im Team?
@@ -171,7 +152,7 @@ Wie können Teams selbstständig arbeiten
 
 Zielbild: T-Shaped Skills
 
-![T-Shaped Skill](../img/devops.01.tshapedskill.png)
+![T-Shaped Skill](img/devops.01.tshapedskill.png)
 
 * Erstmals 1991 von David Guest eingeführt, von Tim Brown (CEO von IDEO Design Consultancy) für Bewerberprofile eingesetzt
 
@@ -187,7 +168,7 @@ Quelle: https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-sh
 
 Beispiel: T-Shaped Skills
 
-![Beispiel: T-Shaped Skill](../img/devops.01.tshapedexample.png)
+![Beispiel: T-Shaped Skill](img/devops.01.tshapedexample.png)
 
 Weiterführende Artikel zu T-Shaped Skills (Drippy T-Shape Skill-Modell): https://synapsenstau.de/t-shaped-skills/
 
@@ -254,11 +235,11 @@ CI/CD
 
 Continuous Integration
 
-![Continuous Integration](../img/devops.01.ci.png)
+![Continuous Integration](img/devops.01.ci.png)
 
 Continuous Deployment
 
-![Continuous Deployment](../img/devops.01.continuousdeployment.png)
+![Continuous Deployment](img/devops.01.continuousdeployment.png)
 
 \{{11\}}
 
@@ -273,7 +254,7 @@ Feedback und verbessertes Lernen
 
 Was gehört also alles dazu?
 
-![DevOps - Was gehört alles dazu](../img/devops.01.bestandteile.png)
+![DevOps - Was gehört alles dazu](img/devops.01.bestandteile.png)
 
 \{{13\}}
 
@@ -286,7 +267,7 @@ DevOps: Definition
 
 ## Hausaufgabe
 
-1. [Artikel zu DevOps](01\_einfuehrung.md#aufgabe-1-verstandnisfragen)
+1. [Artikel zu DevOps](grundlagen.md#aufgabe-1-verstandnisfragen)
 
 ## Exkurs: Bedingungsloses Grundeinkommen
 
