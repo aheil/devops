@@ -4,7 +4,7 @@
   * [Zeitplan](readme/zeitplan.md)
 * [Container](02\_container.md)
 * [Docker Compose](docker-compose.md)
-* [DevOps - Grudlagen](grundlagen.md)
+* [DevOps - Grundlagen](grundlagen.md)
 * [Übungsaufgaben](uebungsaufgaben/README.md)
   * [Docker CI Container](uebungsaufgaben/docker-ci-container.md)
 * [Archiv](lectures/README.md)

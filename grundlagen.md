@@ -1,4 +1,4 @@
-# DevOps - Grudlagen
+# DevOps - Grundlagen
 
 | Parameter          | Kursinformationen                                            |
 | ------------------ | ------------------------------------------------------------ |
@@ -72,8 +72,6 @@ Wie wurde früher\*) Software entwickelt? Pro Technologie, Fachbereich, Einsatzg
 
 \*) häufig ist dies auch heute noch der Fall
 
-
-
 Hierdurch entsteht ein hoher Abstimmungsbedarf, wenn etwas von einem anderen Team benötigt wird.
 
 ![DevOps - Kommunikationswege](img/devops.01.kommunikationswege.png)
@@ -92,54 +90,36 @@ Bildquelle: [https://imgflip.com/](https://imgflip.com/)
 
 Um herauszufinden was DevOps ist, stellen wir uns einmal folgende Frage:
 
-> Wie könnte der Konflikt zwischen Teams gelöst werden?
+**Frage**: Wie könnte der Konflikt zwischen Teams gelöst werden?
 
-Kleiner Tipp aus SEKS: Warum war Canon in den 1970ern mit der Canon AE-1 gleich nochmal so erfolgreich?\*)
-
-\*) Schon wieder etwas aus der alten Vorlesung…
-
-\{{1\}}
-
-Lösung: Cross-funktionale Teams
+**Lösungsidee**: Cross-funktionale Teams
 
 * Ein _gemeinsames_ Produktteam
 
-![DevOps - Cross-funktionales Team](img/devops.01.crossfunctionalteam.png)
-
-\{{2\}}
-
-STOP: Was ist mit dem "DevOps Engineer"?
-
-![DevOps Engineer Anzeige](img/devops.01.devopsengineer.png)
+![Cross-funktionales Team](img/devops.01.crossfunctionalteam.png)
 
 * Hinterfragen, welche Rolle im DevOps-Team eingenommen werden soll
 * Welche Fähigkeiten fehlen im Team?
 
-\{{3\}}
+**Was soll mit Cross-funktionalen Teams erreicht werden?**
 
-Was soll mit Cross-funktionalen Teams erreicht werden?
+* Team ist **eigenständig lieferfähig**
+* Alle **benötigten Skills** sind im Team _vorhanden_
+* Team hat alle **erforderlichen Befugni**_sse_
+* Umdenken in der Organisation: _»_**Betroffene zu Beteiligten machen**_«_
+* _**Schnelle Lieferung von**_ Software-Änderungen optimieren
+* _»_**Lead Time**_«_ soll **möglichst gerin**_g_ gehalten werden, daraus resultierende _kürzere Time-to-Market_ soll Marktvorteile sichern
 
-* Team ist _eigenständig lieferfähig_
-* Alle _benötigten Skills_ sind im Team _vorhanden_
-* Team hat alle _erforderlichen Befugnisse_
-* Umdenken in der Organisation: _»Betroffene zu Beteiligten machen«_
-* _Schnelle Lieferung_ von Software-Änderungen optimieren
-* _»Lead Time«_ soll _möglichst gering_ gehalten werden, daraus resultierende _kürzere Time-to-Market_ soll Marktvorteile sichern
+**Wie erreichen wir die vorherigen Ziele?**
 
-\{{4\}}
+* _**Automatisieren**_ von Prozessen
+* Minimieren von **Übergaben**
+* **Cross-funktionale** Teams
+* **Agile Vorgehensmodelle** (Scrum oder Kanban)
+* Gute **Feedback- und Fehler-Kultur**
+* **Fachlicher Schnitt** anstelle eines techn. Schnitts als Kernelement
 
-Wie erreichen wir die vorherigen Ziele?
-
-* _Automatisieren_ von Prozessen
-* Minimieren von _Übergaben_
-* _Cross-funktionale_ Teams
-* _Agile_ Vorgehensmodelle (Scrum oder Kanban)
-* Gute _Feedback- und Fehler-Kultur_ (vgl. Screencasts)
-* _Fachlicher Schnitt_ anstelle eines techn. Schnitts (vgl. SEKS) als Kernelement
-
-\{{5\}}
-
-Wie können Teams selbstständig arbeiten
+**Wie können Teams selbstständig arbeiten**
 
 * Abhängigkeiten reduzieren
 * Laufzeitumgebungen (Server, Container) selbstständig definieren
@@ -148,9 +128,7 @@ Wie können Teams selbstständig arbeiten
 * Mehr als ein Kollege kennt sich in (Teil-)Bereichen der Software/Infrastruktur aus (vgl. T-Shaped Skills)
 * Team »fühlt sich verantwortlich« für das gesamte Softwareprodukt (Entwicklung, Betrieb, und das 24x7)
 
-\{{6\}}
-
-Zielbild: T-Shaped Skills
+**Zielbild: T-Shaped Skills**
 
 ![T-Shaped Skill](img/devops.01.tshapedskill.png)
 
@@ -162,9 +140,7 @@ Geschichte der T-Shaped Skills
 
 > However, historically speaking, the term T-shaped man can be dated back to the 1980s. At that time, McKinsey & Company used the term widely on internal documents and publications that were seen primarily by upper management. The term was referring to the idea that the T-shaped man (which also included women by that point) was ideal for recruitment as an employee and should also be looked for in terms of the consultants and partners the company decided to work with.
 
-Quelle: https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-shaped-skills/
-
-\{{7\}}
+Quelle: [https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-shaped-skills/](https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-shaped-skills/)
 
 Beispiel: T-Shaped Skills
 
@@ -172,9 +148,7 @@ Beispiel: T-Shaped Skills
 
 Weiterführende Artikel zu T-Shaped Skills (Drippy T-Shape Skill-Modell): https://synapsenstau.de/t-shaped-skills/
 
-\{{8\}}
-
-Infrastructure as Code (IaC)
+**Infrastructure as Code (IaC)**
 
 * Gesamte Infrastruktur wird in Konfigurationsdateien beschrieben
   * Bild-Umgebungen
@@ -185,19 +159,17 @@ Infrastructure as Code (IaC)
 * Spezielle Auszeichnungssprache (JSON, YAML) in Form einer Domain Specific Language (DSL)
 * Beschreibungsdateien werden versioniert und liegen wie Code in einem Repository (z.B. Git)
 
-\{{9\}}
-
-Metriken
+**Metriken**
 
 Metriken geben ein Einblick wie es unserer Applikation geht, indem kontinuierlich Messwerte geliefert werden, die visualisiert werden können. Außerdem werden wir alarmiert, wenn Messwerte bestimmte Schwellwerte unter- oder überschreiten.
 
-Zur Abgrenzung:
+Zur Abgrenzung: Metriken vs. Monitoring vs. Alarmierung
 
-> _Metriken_: Helfen Sachverhalte zu verstehen und zu bewerten. (vgl. SEKS: Software-Metriken)
+> **Metriken**: Helfen Sachverhalte zu verstehen und zu bewerten. (vgl. SEKS: Software-Metriken)
 
-> _Monitoring_: Visualisierung von Metriken
+> **Monitoring**: Visualisierung von Metriken
 
-> _Alarmierung_: Aktiver Hinweis beim Unter- oder Überschreiten von Schwellwerten (E-Mail, SMS, Push Notification, Ampelsystem)
+> **Alarmierung**: Aktiver Hinweis beim Unter- oder Überschreiten von Schwellwerten (E-Mail, SMS, Push Notification, Ampelsystem)
 
 Wo werden Metriken eingesetzt?
 
@@ -208,7 +180,7 @@ Wo werden Metriken eingesetzt?
 * Große Plattformen (Amazon, etsy etc.) werten Metriken automatisch aus und spielen Vorgängerversionen automatisiert ein, sollte in Update der Shop-Software Probleme verursachen
 * Metriken können z.B. für A/B-Testing genutzt werden
 
-Beispiel: Technische Metriken
+**Beispiel: Technische Metriken**
 
 * Durchschnittlich verarbeitet HTTP-Requests
 * Durchschnittliche Verarbeitungsdauer eines HTTP-Requests
@@ -219,7 +191,7 @@ Beispiel: Technische Metriken
 * Latenzen
 * …
 
-Beispiel:a Fachliche Metriken eines Web Shops
+**Beispiel: Fachliche Metriken eines Web Shops**
 
 * Anzahl Neuregistrierung innerhalb der letzten Stunde
 * Heutige Kündigungsquote im Vergleich zum selben Tag der Vorwoche
@@ -229,9 +201,7 @@ Beispiel:a Fachliche Metriken eines Web Shops
 * Anzahl der abgeschickten Bestellungen in der letzten Stunde und deren Bezahlungsart
 * …
 
-\{{10\}}
-
-CI/CD
+**CI/CD**
 
 Continuous Integration
 
@@ -241,31 +211,25 @@ Continuous Deployment
 
 ![Continuous Deployment](img/devops.01.continuousdeployment.png)
 
-\{{11\}}
-
-Feedback und verbessertes Lernen
+**Feedback und verbessertes Lernen**
 
 * Produktideen sind nichts anderes als Hypothesen.
 * Je schneller eine Organisation Hypothesen einzeln oder parallel in Produktion bringt und aussagekräftige Metriken über den Erfolg oder Misserfolg sammeln kann, desto früher können aus diesen Informationen neue Hypothesen gebildet werden, und der Zyklus beginnt erneut.
 * Das Ergebnis ist eine Organisation, die ihre Kunden nach und nach immer besser versteht.
 * Dasselbe gilt auch für externe Impulse durch Wettbewerber oder neue Technologien: Je kürzer der Feedbackzyklus ist, desto schneller kann die Organisation reagieren.
 
-\{{12\}}
-
-Was gehört also alles dazu?
+**Was gehört also alles dazu?**
 
 ![DevOps - Was gehört alles dazu](img/devops.01.bestandteile.png)
 
-\{{13\}}
+**DevOps: Definition**
 
-DevOps: Definition
-
-* DevOps beschreibt eine Form der Zusammenarbeit, bei der _Entwicklung und Betrieb_ einer Software als _untrennbare Einheit_ angesehen werden
+* DevOps beschreibt eine Form der Zusammenarbeit, bei der **Entwicklung und Betrieb** einer Software als **untrennbare Einheit** angesehen werden
 * Kunstwort aus engl. »Development« = Entwicklung und »Operations« = Betrieb
 * DevOps klingt wesentlich cooler als »EntBet«
 * Mittlerweile auch Abwandlungen davon, z. B. _DevSecOps_, wo der Security-Aspekt explizit erwähnt wird (Berücksichtigung von Sicherheitslücken in einer Software und Umgebung)
 
-## Hausaufgabe
+## Aufgabe
 
 1. [Artikel zu DevOps](grundlagen.md#aufgabe-1-verstandnisfragen)
 
