@@ -1,13 +1,4 @@
-# DevOps - Grundlagen
-
-| Parameter          | Kursinformationen                                            |
-| ------------------ | ------------------------------------------------------------ |
-| **Veranstaltung:** | `262062 DevOps`                                              |
-| **Semester**       | `SEB4`                                                       |
-| **Hochschule:**    | `Hochschule Heilbronn`                                       |
-| **Inhalte:**       | `Motiviation und Organisation der Veranstaltung`             |
-| Startseite         | [https://prof.aheil.de/devops](https://prof.aheil.de/devops) |
-| **Autoren**        | Andreas Heil                                                 |
+# DevOps Grundlagen
 
 ## Ziele und Kompetenzen
 
@@ -231,7 +222,7 @@ Continuous Deployment
 
 ## Aufgabe
 
-1. [Artikel zu DevOps](grundlagen.md#aufgabe-1-verstandnisfragen)
+[Artikel zu DevOps](grundlagen.md)
 
 ## Exkurs: Bedingungsloses Grundeinkommen
 
