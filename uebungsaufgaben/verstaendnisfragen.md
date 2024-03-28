@@ -10,4 +10,4 @@ description: In dieser Aufgabe setzen Sie sich mit einem Artikel über DevOps au
 * Link zum Artikel: [https://rdcu.be/b709M](https://rdcu.be/b709M])
 * Welche Punkte sind Ihnen in dem Artikel nicht klar?
   * Notieren Sie drei Fragen zum Artikel
-  * Jedes Team stellt mind. 1 Frage, die im Plenum diskutiert wird
+  * Mind. 1 Frage des Teams wird im Plenum diskutiert
