@@ -222,7 +222,7 @@ Continuous Deployment
 
 ## Aufgabe
 
-[Artikel zu DevOps](grundlagen.md)
+[Verständnisfragen - Artikel zu DevOps](uebungsaufgaben/verstaendnisfragen.md)
 
 ## Exkurs: Bedingungsloses Grundeinkommen
 
