@@ -20,3 +20,4 @@
 * [Screencasts](screencasts.md)
 * [DevOps Philosophie](devops-philosophie.md)
 * [DevOpy Historie](devopy-historie.md)
+* [Kennzahlen in der Wertekette](kennzahlen-in-der-wertekette.md)
