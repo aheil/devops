@@ -19,5 +19,5 @@
   * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
 * [Screencasts](screencasts.md)
 * [DevOps Philosophie](devops-philosophie.md)
-* [DevOpy Historie](devopy-historie.md)
+* [DevOps Historie](devops-historie.md)
 * [Kennzahlen in der Wertekette](kennzahlen-in-der-wertekette.md)
