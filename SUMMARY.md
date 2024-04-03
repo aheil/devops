@@ -18,3 +18,4 @@
   * [DevOps - Metriken](lectures/09\_metriken.md)
   * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
 * [Screencasts](screencasts.md)
+* [DevOps Philosophie](devops-philosophie.md)
