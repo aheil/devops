@@ -14,6 +14,7 @@
   * [Docker CI Container](uebungsaufgaben/docker-ci-container.md)
   * [Verständnisfragen](uebungsaufgaben/verstaendnisfragen.md)
   * [Optimierung Wertekette](uebungsaufgaben/optimierung-wertekette.md)
+  * [Ansible](uebungsaufgaben/ansible.md)
 * [Archiv](lectures/README.md)
   * [DevOps - Philosophie](lectures/03\_philosophie.md)
   * [04\_kanban](lectures/04\_kanban.md)
