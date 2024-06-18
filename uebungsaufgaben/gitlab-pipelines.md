@@ -49,3 +49,7 @@ Erstellen Sie eine Release-Pipeline, die bei der Erstellung eines Tags läuft.
         - Den Tag-Namen
         - Den Changelog der Version als Beschreibung
         - Reference auf den Commit, der getaggt wurde
+
+## Übung 5
+
+Schreiben Sie ein README.md in dem Sie die Funktionalitäten und Nutzung Ihrer CI/CD-Pipeline für neue Entwickler dokumentieren.
