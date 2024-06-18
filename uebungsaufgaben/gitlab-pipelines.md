@@ -29,6 +29,16 @@ Erstellen Sie eine Merge-Request-Pipeline, die bei Merge-Requests auf den Hauptb
 
 ## Übung 3
 
+Erstellen Sie eine Deployment stage, die beim Push auf den Hauptzweig ausgeführt wird.
+
+1. Erstellen Sie eine Dockerdatei, die ein Docker-Image für die Spring Boot-Anwendung erzeugt. Verwenden Sie eclipse-temurin:21 als Base Image. (Tipp: Verwenden Sie das JAR-Artefakt aus der Build-Stage mit einer ENV Variable für den JAR-Namen.) 
+2. Erstellen Sie eine Deployment stage, die beim Push auf den Hauptzweig ausgeführt wird und das Docker-Image deployed.
+  - Verwenden Sie Kaniko, um das Docker-Image zu erstellen.
+  - Verwenden Sie die GitLab Container Registry, um das Docker-Image zu speichern.
+  - Taggen Sie das Docker-Image mit latest.
+
+## Übung 4
+
 Erstellen Sie eine Release-Pipeline, die bei der Erstellung eines Tags läuft.
 
 1. Erstellen Sie eine Release-Pipeline, die bei der Erstellung eines Tags folgende stages ausführt:
