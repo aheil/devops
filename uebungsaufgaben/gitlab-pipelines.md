@@ -44,11 +44,13 @@ Erstellen Sie eine Release-Pipeline, die bei der Erstellung eines Tags läuft.
 1. Erstellen Sie eine Release-Pipeline, die bei der Erstellung eines Tags folgende stages ausführt:
     - Build
     - Test
+    - Deploy (mit Tag anstelle von latest)
     - Release </br>
       Schreiben Sie ein Bash-Skript, das ein neues GitLab-Release erstellt und Folgendes einschließt (Tipp: Sie können auch mehrere Jobs in einer Stage verwenden):
         - Den Tag-Namen
         - Den Changelog der Version als Beschreibung
         - Reference auf den Commit, der getaggt wurde
+        - Den Link zum Docker-Image in der GitLab Container Registry
 
 ## Übung 5
 
