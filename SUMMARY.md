@@ -15,6 +15,7 @@
   * [Verständnisfragen](uebungsaufgaben/verstaendnisfragen.md)
   * [Optimierung Wertekette](uebungsaufgaben/optimierung-wertekette.md)
   * [Ansible](uebungsaufgaben/ansible.md)
+  * [Vagrant](uebungsaufgaben/vagrant.md)
 * [Archiv](lectures/README.md)
   * [DevOps - Philosophie](lectures/03\_philosophie.md)
   * [04\_kanban](lectures/04\_kanban.md)
