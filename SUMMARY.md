@@ -10,6 +10,7 @@
 * [Kennzahlen in der Wertekette](kennzahlen-in-der-wertekette.md)
 * [Kanban](kanban.md)
 * [Ansible](06\_ansible.md)
+* [CI/CD und Pipelines](ci-cd-und-pipelines.md)
 * [Übungsaufgaben](uebungsaufgaben/README.md)
   * [Docker CI Container](uebungsaufgaben/docker-ci-container.md)
   * [Verständnisfragen](uebungsaufgaben/verstaendnisfragen.md)
