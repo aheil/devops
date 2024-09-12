@@ -20,6 +20,8 @@ Der Inhalt der Veranstaltung kann aufgrund der Weiterentwicklung der Technologie
 
 Für Studierende der Hochschule Heilbronn steht ein [ILIAS Raum](https://ilias.hs-heilbronn.de/goto.php?target=crs\_262954\&client\_id=iliashhn) für den Kurs mit Forum und der Möglichkeit zur Abgabe der Übungsaufgaben bereit.
 
+Der Kurs ist so aufgebaut, dass in der ersten Hälfte Tools vorgestellt und erlernt werden, die im parallel stattfinden Labor für Software-Projekte und Projekt Skills (262081) eingesetzt werden können. Die theoretischen Hintergründe des DevOps-Ansatzes werden in der zweiten Hälfte der Veranstaltung vermittelt.&#x20;
+
 ### Kursübersicht
 
 |                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
