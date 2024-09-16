@@ -2,7 +2,7 @@
 
 * [Kursinformationen](README.md)
   * [Zeitplan](readme/zeitplan.md)
-* [Container](02\_container.md)
+* [Docker Container](02\_container.md)
 * [Docker Compose](docker-compose.md)
 * [DevOps Grundlagen](grundlagen.md)
 * [DevOps Philosophie](devops-philosophie.md)
