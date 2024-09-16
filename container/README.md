@@ -1,9 +1,9 @@
-# DevOps - Container
+# Docker Container
 
 ## Ziele und Kompetenzen
 
 * Vorteile von Virtualisierung und Containern **verstehen**
-* &#x20;Containerisierung kennen lernen und eigene Container erstellen und starten **können**
+* Containerisierung kennen lernen und eigene Container erstellen und starten **können**
 
 ## Motivation
 
@@ -34,7 +34,7 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
 * Vorteile:
   * Die VMs sind voneinander unabhängig
   * Ein Problem in einer virtuellen Maschine beeinflusst nicht die anderen Maschinen
-  * Von den VMs lassen sich Backups erstellen und bei Bedarf wiedr einspielen&#x20;
+  * Von den VMs lassen sich Backups erstellen und bei Bedarf wiedr einspielen
 * Nachteile:
   * Es müssen (sehr) viele (virtuelle) Maschinen gewartet und überwacht werden (Betriebssystem-Updates, Software-Update)
   * Erhöhter Ressourcenverbrauch, da virtuelle Maschinen exklusiv Hardware in Anspruch nehme
@@ -52,7 +52,7 @@ Es gibt verschiedene Möglichkeiten umfangreiche Anwendungen zu installieren. Wi
   * Die Ressourcen stehen weder dem Host-System, noch den anderen virtuellen Maschinen zur Verfügung
   * Die virtuelle Maschine bringt ihren ganz eigenen Hardware Abstraction Layer und simuliert die ganze Hardware
 
-![](img/devops.02.vms.png)
+![](../img/devops.02.vms.png)
 
 **Container Modell**
 
@@ -64,7 +64,7 @@ z.B.
 * Je ein Container pro Service
 * Je ein Container pro Datenbank
 
-![](img/devops.02.containers.png)
+![](../img/devops.02.containers.png)
 
 **Vorteile**
 
@@ -88,13 +88,11 @@ z.B.
 
 **Was ist ein Container von Julia Evans**
 
-![(© by Julia Evans, Zine used with pending permissions)](img/devops.02.julia\_evans\_container\_zine.jpg)
-
-
+![(© by Julia Evans, Zine used with pending permissions)](../img/devops.02.julia\_evans\_container\_zine.jpg)
 
 **Beispiel einer Software in Containern**
 
-![](img/devops.02.example\_arch.de.png)
+![](../img/devops.02.example\_arch.de.png)
 
 **Automatisierung mit Containern**
 
@@ -128,7 +126,7 @@ Alles auf einer Maschine oder jeder Dienst in einem eigenen Container?
 
 * Container können über verschiedene Maschinen verteilt werden
 
-![](img/devops.02.microservice\_example\_arch.de.png)
+![](../img/devops.02.microservice\_example\_arch.de.png)
 
 ***
 
@@ -136,11 +134,11 @@ Alles auf einer Maschine oder jeder Dienst in einem eigenen Container?
 
 Container können über eigene Netzwerke miteinander kommunizieren
 
-![](img/devops.02.network.de.png)
+![](../img/devops.02.network.de.png)
 
 **Nutzung von Standard-Ports in Containern**
 
-![](img/devops.02.ports.de.png)
+![](../img/devops.02.ports.de.png)
 
 ***
 
@@ -148,13 +146,13 @@ Container können über eigene Netzwerke miteinander kommunizieren
 
 Ein Reverse Proxy löst dabei so manche Probleme einzelner Maschinen...
 
-![](img/devops.02.reverseproxy.de.png)
+![](../img/devops.02.reverseproxy.de.png)
 
 ***
 
 ## Container Umgebungen
 
-![](img/devops.02.image\_vs\_container.png)
+![](../img/devops.02.image\_vs\_container.png)
 
 ## Docker Compose
 
@@ -189,7 +187,7 @@ networks:
 * Vielleicht ein Skript das alles DB-Einträge an jemanden übermittelt?
 * Beim offiziellen Image weniger kritisch
 
-![](img/devops.02.dockerhub.png)
+![](../img/devops.02.dockerhub.png)
 
 ## Image erstellen
 
@@ -221,9 +219,7 @@ ENTRYPOINT [ "/entrypoint.sh" ]
 6. Stellen Sie sicher, dass _nginx_ mit dem Starten des Containers startet.
 7. Routen Sie den Port 8080 auf den Port 80 Ihres Containers und öffnen Sie die Datei vom Browser Ihres Hostsystems via (`http://localhost:8080/index.html`)
 8. Ändern Sie die Datei auf dem Host-System und laden Sie die Datei neu im Browser.
-9. Erstellen Sie eine README.TXT und notieren Sie die Zeile wie der Container über die Kommandozeile gebaut und gestartet werden kann.&#x20;
-
-
+9. Erstellen Sie eine README.TXT und notieren Sie die Zeile wie der Container über die Kommandozeile gebaut und gestartet werden kann.
 
 ### Bewertungskriterien
 

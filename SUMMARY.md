@@ -2,7 +2,8 @@
 
 * [Kursinformationen](README.md)
   * [Zeitplan](readme/zeitplan.md)
-* [Docker Container](container.md)
+* [Docker Container](container/README.md)
+  * [Docker Container Übungsaufgabe](container/docker-container-ubungsaufgabe.md)
 * [Docker Compose](docker-compose.md)
 * [DevOps Grundlagen](grundlagen.md)
 * [DevOps Philosophie](devops-philosophie.md)
@@ -27,3 +28,4 @@
   * [DevOps - Metriken](lectures/09\_metriken.md)
   * [DevOps - Übungen und Abgaben](lectures/99\_exercises.md)
 * [Screencasts](screencasts.md)
+* [Docker Container Hausaufgabe](docker-container-hausaufgabe.md)
