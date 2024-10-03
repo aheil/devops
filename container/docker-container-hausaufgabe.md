@@ -1,3 +1,9 @@
+---
+description: >-
+  Erstellen Sie ein Docker Image für dein Einsatz in einer CI/CD Pipeline, das
+  mittels Docker Compose gebaut und gestartet wird.
+---
+
 # Docker Container Hausaufgabe
 
 ## Aufgabe

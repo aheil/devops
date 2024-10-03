@@ -1,3 +1,9 @@
+---
+description: >-
+  In diesem Abschnitt lernen Sie die Grundlagen von Container-Technologien und
+  Docker kennen.
+---
+
 # Docker Container
 
 ## Ziele und Kompetenzen
