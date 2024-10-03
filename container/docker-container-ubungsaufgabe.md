@@ -8,6 +8,9 @@ description: >-
 
 1. **Installieren Sie Docker:**
    * Stellen Sie sicher, dass Docker auf Ihrem System installiert ist. Anleitungen finden Sie auf der Docker-Website.
+   * Unter Windows benötigen Sie Windows Subsystem für Linux. Sollten Sie noch keine Distribution installiert haben und eine entsprechende Fehlermeldung beim Start von Docker erhalten, führen SIe folgenden Befehl aus:\
+     \
+     `wsl.exe --install --no-distribution`
 2. **Erstellen Sie ein Projektverzeichnis:**
    *   Erstellen Sie ein neues Verzeichnis für Ihr Projekt:\
 
