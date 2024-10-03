@@ -20,6 +20,10 @@ layout:
 * Die wichtigsten Elemente von Docker Compose **kennen**
 * Einfach Beispiele in Docker Compose erfolgreich selbst **erstellen und ausführen können**
 
+## **Wozu wird Docker Compose benötigt**
+
+
+
 ## **Was ist Docker Compose?**
 
 In der vorherigen Einheite haben wir einen einzelnen Container auf der Kommandozeile gestartet. Was aber, wenn wir mehrere Container zusammen starten wollen, weil diese alle für eine Anwendung benötigt werden. Z.B. eine Datenbank, ein Backend, ein Webserver und das Frontend?&#x20;
