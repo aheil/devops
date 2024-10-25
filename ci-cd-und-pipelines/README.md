@@ -76,7 +76,7 @@ Um die Notwendigkeit von **Continuous Integration** zu verstehen hilft es sich v
 
 * Automatisierte Inbetriebnahme von (allen) Code-Änderungen ohne explizite Freigabe
 
-<figure><img src=".gitbook/assets/devops.11.cd.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/devops.11.cd.de.png" alt=""><figcaption></figcaption></figure>
 
 Continuous Integration Best Practices\
 
@@ -96,7 +96,7 @@ Wie lassen sich die zuvor genannten Probleme angehen?
 
 ### CI Setup
 
-<figure><img src=".gitbook/assets/devops.11.ci.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/devops.11.ci.de.png" alt=""><figcaption></figcaption></figure>
 
 ## Pipeline
 
@@ -105,7 +105,7 @@ Eine Pipeline ist eine ausführbare Spezifikation aller Schritte, um eine neue V
 GitLab bietet eine integrierte Lösung für CI/CD an, die es Entwicklern ermöglicht, ihre Builds, Tests und Deployments nahtlos zu automatisieren. GitLab CI/CD ist in GitLab integriert und nutzt eine YAML-Datei (`.gitlab-ci.yml`), um Pipelines zu definieren.\
 
 
-<figure><img src=".gitbook/assets/devops.11.pipeline.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/devops.11.pipeline.de.png" alt=""><figcaption></figcaption></figure>
 
 ### Komponenten einer GitLab CI/CD Pipeline
 
@@ -226,7 +226,7 @@ run-unit-test:            # Test
 
 ## GitLab Beispiel
 
-<figure><img src=".gitbook/assets/devops.11.gitlab.de.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/devops.11.gitlab.de.png" alt=""><figcaption></figcaption></figure>
 
 ### Best Practices für GitLab CI/CD
 
