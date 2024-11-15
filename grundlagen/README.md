@@ -59,17 +59,17 @@ ISBN 978-3958751750\
 
 Wie wurde früher\*) Software entwickelt? Pro Technologie, Fachbereich, Einsatzgebiet ein eigenes Team:
 
-![Wie wurde früher Software entwickelt?](img/devops.01.legacyteams.png)
+![Wie wurde früher Software entwickelt?](../img/devops.01.legacyteams.png)
 
 \*) häufig ist dies auch heute noch der Fall
 
 Hierdurch entsteht ein hoher Abstimmungsbedarf, wenn etwas von einem anderen Team benötigt wird.
 
-![DevOps - Kommunikationswege](img/devops.01.kommunikationswege.png)
+![DevOps - Kommunikationswege](../img/devops.01.kommunikationswege.png)
 
 ### Der ewige Interessenskonflikt
 
-![DevOps - I want to get that done... ASAP as possible](img/devops.01.asapmeme.jpg)
+![DevOps - I want to get that done... ASAP as possible](../img/devops.01.asapmeme.jpg)
 
 Bildquelle: [https://imgflip.com/](https://imgflip.com/)
 
@@ -87,7 +87,7 @@ Um herauszufinden was DevOps ist, stellen wir uns einmal folgende Frage:
 
 * Ein _gemeinsames_ Produktteam
 
-![Cross-funktionales Team](img/devops.01.crossfunctionalteam.png)
+![Cross-funktionales Team](../img/devops.01.crossfunctionalteam.png)
 
 * Hinterfragen, welche Rolle im DevOps-Team eingenommen werden soll
 * Welche Fähigkeiten fehlen im Team?
@@ -121,7 +121,7 @@ Um herauszufinden was DevOps ist, stellen wir uns einmal folgende Frage:
 
 **Zielbild: T-Shaped Skills**
 
-![T-Shaped Skill](img/devops.01.tshapedskill.png)
+![T-Shaped Skill](../img/devops.01.tshapedskill.png)
 
 * Erstmals 1991 von David Guest eingeführt, von Tim Brown (CEO von IDEO Design Consultancy) für Bewerberprofile eingesetzt
 
@@ -135,7 +135,7 @@ Quelle: [https://corporatefinanceinstitute.com/resources/careers/soft-skills/t-s
 
 Beispiel: T-Shaped Skills
 
-![Beispiel: T-Shaped Skill](img/devops.01.tshapedexample.png)
+![Beispiel: T-Shaped Skill](../img/devops.01.tshapedexample.png)
 
 Weiterführende Artikel zu T-Shaped Skills (Drippy T-Shape Skill-Modell): https://synapsenstau.de/t-shaped-skills/
 
@@ -196,11 +196,11 @@ Wo werden Metriken eingesetzt?
 
 Continuous Integration
 
-![Continuous Integration](img/devops.01.ci.png)
+![Continuous Integration](../img/devops.01.ci.png)
 
 Continuous Deployment
 
-![Continuous Deployment](img/devops.01.continuousdeployment.png)
+![Continuous Deployment](../img/devops.01.continuousdeployment.png)
 
 **Feedback und verbessertes Lernen**
 
@@ -211,7 +211,7 @@ Continuous Deployment
 
 **Was gehört also alles dazu?**
 
-![DevOps - Was gehört alles dazu](img/devops.01.bestandteile.png)
+![DevOps - Was gehört alles dazu](../img/devops.01.bestandteile.png)
 
 **DevOps: Definition**
 
@@ -222,7 +222,7 @@ Continuous Deployment
 
 ## Aufgabe
 
-[Verständnisfragen - Artikel zu DevOps](uebungsaufgaben/verstaendnisfragen.md)
+[Verständnisfragen - Artikel zu DevOps](verstaendnisfragen.md)
 
 ## Exkurs: Bedingungsloses Grundeinkommen
 
