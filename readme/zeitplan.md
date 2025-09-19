@@ -1,24 +1,28 @@
+---
+description: Vorläufiger Zeitplan und Themenauswahl.
+---
+
 # Zeitplan
 
 
 
-| Einheit # | Datum      | Thema                                                                                                                                                                                                                                                                                                           |
-| --------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1         | 27.09.2024 | [Container ](broken-reference)(Wdh.)                                                                                                                                                                                                                                                                            |
-| 2         | 30.09.2024 | [Docker Compose](../docker-compose/)                                                                                                                                                                                                                                                                            |
-| 3         | 11.10.2024 | [Ansible](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/06\_ansible.md#1)                                                                                                                                                                                  |
-| 4         | 18.10.2024 | [Vagrant](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/07\_vagrant.md#1)                                                                                                                                                                                  |
-| 5         | 25.10.2024 | [Pipelines](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/08\_gitops.md#1)                                                                                                                                                                                 |
-| 6         | 01.11.2024 | Vorlesungsfrei (Allerheiligen)                                                                                                                                                                                                                                                                                  |
-| 7         | 08.11.2024 | Test 1 (Tooling)                                                                                                                                                                                                                                                                                                |
-| 8         | 15.11.2024 | [DevOps Grundlagen](../grundlagen/)                                                                                                                                                                                                                                                                             |
-| 9         | 22.11.2024 | [DevOps Philosophie (Teil 1)](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03\_philosophie.md#1) + [DevOps Philosophie (Teil 2)](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/03\_philosophie.md#1) |
-| 9         | 29.11.2024 | keine Veranstaltung (Blockwoche SEB)                                                                                                                                                                                                                                                                            |
-| 10        | 06.12.2024 | <p><br>Kanban + <a href="https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/05_vsm.md#1">Value Stream Maps</a></p>                                                                                                                                              |
-| 11        | 13.12.2024 | [DevOps KPIs und DORA](https://liascript.github.io/course/?https://raw.githubusercontent.com/aheil/devops/master/lectures/09\_metriken.md#1)                                                                                                                                                                    |
-| 12        | 20.12.2024 | TBA                                                                                                                                                                                                                                                                                                             |
-| 13        | 27.12.2024 | Vorlesungsfrei                                                                                                                                                                                                                                                                                                  |
-| 14        | 03.10.2024 | Vorlesungsfrei                                                                                                                                                                                                                                                                                                  |
-| 15        | 10.01.2025 | Pull Workshop                                                                                                                                                                                                                                                                                                   |
-| 16        | 17.01.2025 | Test 2 (Theorie)                                                                                                                                                                                                                                                                                                |
+| Einheit # | Datum      | Thema                                |
+| --------- | ---------- | ------------------------------------ |
+| 1         | 26.09.2025 | DevOps Grundlagen                    |
+| --        | 03.10.2025 | Vorlesungsfrei (Tag d. dt. Einheit)  |
+| 2         | 10.10.2025 | DevOps Philosophie                   |
+| 3         | 17.10.2025 | Kanban                               |
+| 4         | 24.10.2025 | Kennzahlen, KPI, DORA                |
+| 5         | 31.10.2025 | Value Stream Maps                    |
+| 6         | 07.11.2025 | Pull Workshop                        |
+| 7         | 14.11.2025 | Test 1 (Theorie)                     |
+| 8         | 21.11.2025 | Pipelines                            |
+| --        | 28.11.2025 | keine Veranstaltung (Blockwoche SEB) |
+| 9         | 05.12.2025 | <p>Container<br></p>                 |
+| 10        | 12.12.2025 | Ansible                              |
+| 11        | 19.12.2025 | Vagrant                              |
+| --        | 26.12.2025 | Vorlesungsfrei                       |
+| --        | 02.10.2026 | Vorlesungsfrei                       |
+| 14        | 09.01.2026 | Test 2 (Tooling)                     |
+| --        | 16.01.2026 | Entfällt (SEB Kolloquium)            |
 
