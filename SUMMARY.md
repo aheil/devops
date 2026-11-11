@@ -9,6 +9,7 @@
   * [Compose Übungsaufgabe](docker-compose/compose-ubungsaufgabe.md)
   * [Compose Hausaufgabe](docker-compose/docker-ci-container.md)
 * [Ansible](ansible/README.md)
+  * [Ansible Schritt-für-Schritt-Übungen](ansible/uebungen.md)
   * [Ansible Hausaufgabe](ansible/ansible.md)
   * [Videos](ansible/videos.md)
 * [Vagrant](vagrant/README.md)
